@@ -11,44 +11,34 @@ Diante  disso,  torna-se  fundamental  que  existam canais de informação e  me
 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Diante do exposto, o problema que se busca resolver com este projeto é a dificuldade da pessoa com deficiência em obter acesso a informações confiáveis de acessibilidade sobre
+locais aos quais ela deseja frequentar.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Objetivo Geral 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Criar uma aplicação web, que possibilite à pessoa com deficiência perceber de forma precisa, detalhada, checada e antecipada, a real acessibilidade do local, por meio de fotos e medidas, extensa em detalhes, contando com avaliações de usuários reais que frequentaram o estabelecimento em questão. 
+
+
+Nossa aplicação abrange inicialmente a cidade de Belo Horizonte, e é potencialmente expansível para demais territórios em solo brasileiro.
+
+
+Como objetivos específicos, podemos ressaltar:
+
+
+Organizar as informações por categoria, para melhorar a experiência de navegação do usuário, possibilitando uma busca por filtros;
+Criar métodos de avaliação, para que um usuário possa registrar suas experiências nos estabelecimentos e assim, outros indivíduos conseguirem verificar, se as empresas que fornecem o serviço, cumprem com efetividade presencialmente, aquilo que prometem em seus respectivos sites;
+Possibilitar que os usuários possam inserir novos locais, que oferecem estrutura adaptada, de acordo com suas vivências;
+Mapear as necessidades de pessoas com deficiência motora, no intuito de identificar as principais dificuldades.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De acordo com o parceiro de um dos autores, que é cadeirante, houveram diversas  situações ao viajar ou mesmo no cotidiano, onde eles presenciaram a falta de acessibilidade e infraestrutura nos locais, presenciando casos de despreparo das pessoas na tentativa de solucionar os problemas encontrados. Desta forma, uma experiência que deveria ser habitual, acaba se tornando desagradável.
+	Observamos a existência de uma parcela considerável da população que apresenta algum tipo de deficiência e que requerem de meios que proporcionem acessibilidade, pois muitos dos locais não estão preparados para receber pessoas com necessidades específicas. “Em 2019, segundo Pesquisa Nacional de Saúde (PNS), 17,3 milhões de pessoas com dois anos ou mais de idade (8,4% dessa população) tinham alguma das deficiências investigadas. Cerca de 3,8% (7,8 milhões) das pessoas de 2 anos ou mais de idade, tinham deficiência física nos membros inferiores”. (IBGE 2021).
+A partir desses fatos, surgiu então a iniciativa de implantar uma aplicação web, que traga segurança para a pessoa com deficiência motora e acompanhante, ao obter informações confiáveis e detalhadas, que proporcionem acessibilidade e a possibilidade de  consultar locais sugeridos pela aplicação.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Este projeto tem como público alvo toda pessoa com deficiência físico motora (que possuam alterações completas ou parciais de um ou mais segmentos do corpo, que acarretam o comprometimento da mobilidade). Ainda, considera-se também como público alvo os acompanhantes de pessoas com essa deficiência.
