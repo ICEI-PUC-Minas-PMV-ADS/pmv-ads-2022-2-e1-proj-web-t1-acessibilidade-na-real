@@ -1,6 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Ao planejar um passeio ou uma viagem contamos com ferramentas de apoio como, por exemplo, sites de reserva, onde é possível pesquisar as opções disponíveis que atendam aos objetivos demandados.
+
+E quando o objetivo é saber sobre a acessibilidade de um determinado restaurante, hotel, ou outro local?
+
+As pessoas com deficiência enfrentam dificuldades em obter informações sobre a acessibilidade de um determinado local, e quando as obtêm, muitas vezes são informações desatualizadas, ou imprecisas. O que deveria ser um momento de diversão se transforma em frustração e constrangimento, ao se deparar com estabelecimentos não-acessíveis.
+
+
+Diante  disso,  torna-se  fundamental  que  existam canais de informação e  mecanismos  que permitam ao usuário a conscientização de seus direitos, além de acessar um conteúdo diverso e sem viéses que limitem a sua condição de se informar de maneira adequada diante de sua liberdade de ir e vir. 
+
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
