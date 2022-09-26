@@ -1,44 +1,49 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema, bem como os pontos mais relevantes a serem abordados neste projeto, foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados e descritos na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na tabela que se segue.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+| Persona | Pedro Pedrosa | Fernanda Fernandes | Rodrigo Rodrigues |
+| -------------------- | ------------------------------------ | ---------------------------------------- | -------- |
+| Idade | 26 anos | 23 anos | 30 anos |
+| Ocupação | Publicitário / Produtor de mídia / Apresentador de podcast | Estudante de Administração / Recepcionista | Engenheiro eletricista |
+| Aplicativos | Uber, Instagram, Twitter | Instagram, Facebook | Twitter, Instagram |
+| Motivações | Conhecer o mundo, escrever um livro, mudar pro exterior | Ajudar as pessoas, ser independente | Conscientizar pessoas sobre a importância de locais acessíveis |
+| Insatisfações | Falta de acessibilidade, falta de autoconfiança, custo de vida para PCD mais elevado, conceito de acessibilidade pouco difundido | Governança abusiva, falta de respeito e consciência das pessoas | Falta de engajamento de gestores no treinamento de funcionários para operar equipamentos que proporcionem acessibilidade |
+| Hobbies | Viajar, frequentar bares, assistir séries e filmes | Frequentar eventos sociais, festas, ler, e ir ao cinema | Conhecer museus, observatórios, jantar em restaurantes bem avaliados |
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A  partir  da  compreensão  do  dia  a  dia  das  personas  identificadas  para  o  projeto,  foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Persona / Usuário | O que | Por quê |
+| -------------------- | ------------------------------------ | ---------------------------------------- |
+| Pedro Pedrosa | Acessar informações confiáveis e fidedignas dos estabelecimentos | Frequentar estabelecimentos com maior tranquilidade ao obter informações acessíveis e detalhadas acerca da acessibilidade desses locais |
+| Pedro Pedrosa | Obter informações jurídicas vigentes, que respaldem os direitos das pessoas com deficiência | Conhecer os próprios direitos, saber se defender com maior eficácia e exigir acessibilidade de acordo com a lei para PCD |
+| Pedro Pedrosa | Criar lista de estabelecimentos favoritos baseado em avaliações reais | Evitar frequentar locais onde possa sentir-se constrangido ou desagradavelmente surpreendido |
+| Fernanda Fernandes | Efetuar pesquisa prévia da estrutura adaptada a deficientes físicos | Frequentar apenas estabelecimentos acessíveis |
+| Fernanda Fernandes | Pesquisar sobre a adequação da sinalização dos estabelecimentos | Se informar sobre a adequação das adaptações nos estabelecimentos onde frequentar |
+| Rodrigo Rodrigues | Checar se há pessoal devidamente treinado para atender adequadamente clientes com deficiência | Frequentar locais onde haja o adequado funcionamento das adaptações de acessibilidade |
+| Rodrigo Rodrigues | Identificar se há vagas de estacionamento devidamente estabelecidas e sinalizadas, com acessibilidade para pessoas com deficiência | Deslocar-se adequadamente nos estacionamentos de locais onde visitar, por meio de vagas com espaço acessível |
+| Rodrigo Rodrigues | Observar o espaçamento entre mesas em um restaurante específico | Evitar estabelecimentos onde o espaço insuficiente entre as mesas gere dificuldades e transtornos em seu deslocamento |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+História de usuário / Pedro Pedrosa
+
+Deseja encontrar na aplicação: Pedro Pedrosa, que possui deficiência física, necessita de acesso a informação fidedigna e confiável dos estabelecimentos, para que possa frequentar com maior tranquilidade, pois na maioria das vezes, ao se buscar informações sobre um determinado local, não as encontra com facilidade ou quando encontra, é insuficiente em detalhes.  Além disso, precisa ter acesso a uma gama de informações sobre acessibilidade em vários aspectos, como por exemplo, se o quarto do hotel do qual ele ficará hospedado, tem estrutura adaptada. Para mais, deseja inclusive saber sobre aspectos jurídicos para conhecer os direitos e se defender melhor. Deseja criar uma lista de estabelecimentos favoritos baseado em avaliações reais, pois por diversas vezes os estabelecimentos não atendem as expectativas e ele não quer ser surpreendido, muito menos constrangido.
+
+História de usuário / Fernanda Fernandes
+
+Deseja encontrar na aplicação: Fernanda Fernandes, que é acompanhante de uma pessoa com deficiência física, gostaria de visualizar, antes de ir a um evento social, os estabelecimentos que tem estrutura adaptada. Constantemente, ela passa por situações lamentáveis, como inadequações em banheiros, nesses casos é comum os locais estarem sem corrimão ou serem muitos apertados. Ela menciona ainda que a falta de sinalização e de educação das pessoas é outro agravante, pois quando decide sair de casa frequentemente observa carros parados em frente a rampas de acesso, ocasionando em embaraços e contratempos ao passeio ou realização de atividades cotidianas com seu esposo.
+
+História de usuário / Rodrigo Rodrigues
+
+Deseja encontrar na aplicação: Rodrigo Rodrigues, que possui deficiência física, quando encontra locais com estrutura adaptada, por exemplo localidades onde tenham esses aparelhos que fazem o transporte de pessoas com dificuldade de locomoção, acontece de não encontrar pessoas treinadas para operar esses equipamentos. Além disso, Rodrigo observa que nem todos os estabelecimentos que frequenta estabelecem as vagas de estacionamento nos locais corretos, fato este que acaba impossibilitando o deslocamento eficaz para uma pessoa com mobilidade reduzida. Além disso, quando em um restaurante, ele observa falta de espaços suficientes entre as mesas, circunstância essa, que pode causar diversos inconvenientes.
+
 
 ## Requisitos
 
@@ -46,46 +51,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A  tabela  a  seguir  apresenta  os  requisitos  do  projeto,  identificando  a  prioridade  em  que  os mesmos devem ser entregues.
+
+| ID    | Descrição do Requisito  | Prioridade |
+| ------ | ----------------------------------------- | ---- |
+| RF01 | A aplicação web deve apresentar os direitos garantidos por legislação vigente aos deficientes | Baixa |
+| RF02 | A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local | Alta |
+| RF03 | Permitir ao usuário salvar seus locais favoritos em uma lista | Baixa |
+| RF04 | Informar se funcionários e colaboradores dos estabelecimentos atendem adequadamente clientes deficientes | Média |
+| RF05 | Permitir o usuário deixar avaliações e comentários seguindo sua experiência | Baixa |
+| RF06 | Permitir ao usuário ver fotos do local quando acessar a sua página | Alta |
+| RF07 | Permitir o usuário filtrar as formas de acessibilidade que ele julga mais importantes | Alta |
+| RF08 | A aplicação deve fornecer opções de contato com o estabelecimento | Baixa |
+| RF09 | A aplicação deve solicitar login para postagem de um comentário ou avaliação | Baixa |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá
+atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+| ID     | Descrição do Requisito  | Prioridade |
+| ------- | ------------------------- | ---- |
+| RNF01 | A aplicação web deve ser responsivo permitindo a visualização em um celular de maneira adequada  | Alta | 
+| RNF02 | A aplicação deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | Alta | 
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+As  questões  que  limitam  a  execução  desse  projeto  e  que  se  configuram como  obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID | Descrição                                             |
+| -- | ----------------------------------------------------- |
+| RE01 | O aplicativo deve se restringir às tecnologias básicas de desenvolvimento web com o foco em Front-End |
+| RE02 | O  projeto  deve  ser  entregue  ao final  do  semestre,  não podendo ultrapassar a data de 22/12/2022 |
+| RE03 | A equipe não pode subcontratar o desenvolvimento do trabalho        |
