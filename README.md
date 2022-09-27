@@ -1,27 +1,29 @@
-# TÍTULO DO PROJETO
+# ACESSIBILIDADE NA REAL
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO WEB FRONT-END`
 
-`SEMESTRE`
+`1º SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Trata-se de uma aplicação web, que possibilitará à pessoa com deficiência obter informações atualizadas sobre a acessibilidade de um determinado estabeleciment por meio de fotos e medidas, contando com avaliações de usuários reais que frequentaram o local em questão.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Grazielly Pereira de Oliveira
+* Reinaldo Theodoro Marquezini
+* Juliano Ricaldoni Alves de Melo
+* Matheus de França Loyola Mourão
+* Leandro Borges Isaias
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descrever como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
