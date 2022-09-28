@@ -1,6 +1,6 @@
 # ACESSIBILIDADE NA REAL
 
-![](https://img.shields.io/github/issues-raw/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real?color=yellow&style=plastic)
+![](https://img.shields.io/github/issues-raw/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real?color=green&style=plastic)
 
 `ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
