@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-Norteamos a interface do sistema na infrmação clara, objetiva, e segura do usuário. Assim, apenas usuários registrados acessam e editam informações cadastrais e visuais dos estabelecimentos, enquanto informações gerais (como legislação vigente) apresentam acesso irrestrito. E as telas foram projetadas para funcionamento em desktops e dispositvos móveis.
+Norteamos a interface do sistema na informação clara, objetiva, e segura do usuário. Assim, apenas usuários registrados acessam e editam informações cadastrais e visuais dos estabelecimentos, enquanto informações gerais (como legislação vigente) apresentam acesso irrestrito. E as telas foram projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## User Flow
 
