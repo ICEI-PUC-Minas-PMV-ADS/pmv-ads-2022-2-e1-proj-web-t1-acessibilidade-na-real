@@ -1,6 +1,8 @@
 
 # Metodologia
 
+
+
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
@@ -36,6 +38,18 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+
+Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  GitHub, estruturado com as seguintes listas: 
+
+● Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser 
+incorporadas a esta lista.
+
+● To  Do:  Esta  lista  representa  o  Sprint  Backlog.  Este  é  o  Sprint  atual  que  estamos trabalhando.
+
+● Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+
+● Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade  e  estão  prontos  para  ser  entregues  ao  usuário.  Não  há  mais  edições  ou revisões necessárias, ele está agendado e pronto para a ação.
+
 
 ### Divisão de Papéis
 
