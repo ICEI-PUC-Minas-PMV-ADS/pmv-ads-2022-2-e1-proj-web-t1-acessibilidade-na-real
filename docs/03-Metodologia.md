@@ -1,7 +1,12 @@
 
 # Metodologia
 
-
+| Ambiente | Plataforma | Link de Acesso |
+| -------------------- | ------------------------------------ | ---------------------------------------- |
+| Repositório de código fonte | Github | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real) |
+| Documentos do projeto | ! | ! |
+| Projeto de Interface e Wireframes | MarvelApp | ! |
+| Gerenciamento do Projeto | Slack | ! |
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
