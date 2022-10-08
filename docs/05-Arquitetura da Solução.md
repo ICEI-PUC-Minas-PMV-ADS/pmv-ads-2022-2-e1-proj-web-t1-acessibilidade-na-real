@@ -79,6 +79,6 @@ Serão utilizadas as seguintes tecnologias no desenvolvimento:
 
 ## Hospedagem
 
-O site será hospedado no GitHub Pages no link [exemplo.github.io](example.github.io)[^1], e será atualizado através de pushes com o git no repositório do Grupo 4 - [Acessibilidade na Real](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real).
+O site será hospedado no GitHub Pages no link [exemplo.github.io](https://example.github.io)[^1], e será atualizado através de pushes com o git no repositório do Grupo 4 - [Acessibilidade na Real](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real).
 
 [^1]: O link ainda está para ser definido.
