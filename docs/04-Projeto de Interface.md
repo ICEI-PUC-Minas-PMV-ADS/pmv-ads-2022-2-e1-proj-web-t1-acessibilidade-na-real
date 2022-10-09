@@ -38,23 +38,6 @@ Login - Tela 3
 
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
 
-- Ao efetuar login na plataforma, o usuário é direcionado a Tela 4 (Visualizar Galeria). 
-
-![Tela 4](https://user-images.githubusercontent.com/111434777/194782523-41c6d5b9-9081-4547-90f0-b59cad76c123.png)
-
-- Acesso Estabelecimento - Tela 5
-
-![Tela 5](https://user-images.githubusercontent.com/111434777/194782627-d982d867-f3e2-4ac7-bb28-ba683e469cfd.png)
-
-- Confirmação Cadastro - Tela 6
-
-![Tela 6](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
-
-- Acesso Usuário - Tela 7
-
-![Tela 7](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
-
-- São apresentadas as imagens dos estabelecimantos cadastrados na plataforma, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 8). 
 
 ![Tela 8](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
 
