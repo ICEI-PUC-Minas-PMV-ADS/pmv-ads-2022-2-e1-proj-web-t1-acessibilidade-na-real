@@ -1,16 +1,22 @@
 
 # Metodologia
 
+A  metodologia  contempla  as  definições  de  ferramentas  utilizadas pela  equipe  tanto  para  a 
+manutenção dos códigos e demais artefatos quanto para a organização do time na execução 
+das tarefas do projeto.
 
 
 ## Relação de Ambientes de Trabalho
+
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos 
+ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 | Ambiente | Plataforma | Link de Acesso |
 | -------------------- | ------------------------------------ | ---------------------------------------- |
 | Repositório de código fonte | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real |
 | Documentos do projeto | Google Drive | https://docs.google.com/document/d/1H_dWhBlCfzp1HD9V2fYEbn83p2RC1qYPfM1L6ZiNtBA/edit |
 | Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/prototype/2gecc0dg |
-| Gerenciamento do Projeto | Slack | https://app.slack.com/client/T045F2HC38V/C045HU2GLSX |
+| Gerenciamento do Projeto | GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/142/views/1|
 
 ## Controle de Versão
 
@@ -36,7 +42,7 @@ etiquetas:
 
 ## Gerenciamento de Projeto
 
-Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  GitHub, estruturado com as seguintes listas: 
+Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  está  utilizando  o  GitHub Project, estruturado com as seguintes listas: 
 
 ● Backlog:  recebe  as  tarefas  a  serem  trabalhadas  e  representa  o  Product  Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
