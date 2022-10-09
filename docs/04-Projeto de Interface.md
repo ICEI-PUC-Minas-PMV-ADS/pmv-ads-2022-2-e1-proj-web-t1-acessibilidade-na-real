@@ -38,24 +38,32 @@ Login - Tela 3
 
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
 
-Ao efetuar login na plataforma, o usuário é direcionado a Tela 4 (Visualizar Galeria). 
+- Ao efetuar login na plataforma, o usuário é direcionado a Tela 4 (Visualizar Galeria). 
 
+![Tela 4](https://user-images.githubusercontent.com/111434777/194782523-41c6d5b9-9081-4547-90f0-b59cad76c123.png)
 
+- Acesso Estabelecimento - Tela 5
 
-![Tela 4](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
+![Tela 5](https://user-images.githubusercontent.com/111434777/194782627-d982d867-f3e2-4ac7-bb28-ba683e469cfd.png)
 
-São apresentadas as imagens dos estabelecimantos cadastrados na plataforma, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
+- Confirmação Cadastro - Tela 6
 
-![imagens local](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
+![Tela 6](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
 
-A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. 
+- Acesso Usuário - Tela 7
 
-![Tela 7](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
+![Tela 7](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
 
-Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 5.
+- São apresentadas as imagens dos estabelecimantos cadastrados na plataforma, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 8). 
 
-![Tela 8](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
+![Tela 8](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
 
-Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
+- A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 9. 
 
-![Tela 6a](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
+![Tela 9](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
+
+- Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 6, e então é direcionado para a Tela 5.
+
+- Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 11). 
+
+![Tela 11](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
