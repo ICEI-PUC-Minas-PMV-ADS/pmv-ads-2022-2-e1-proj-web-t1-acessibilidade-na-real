@@ -82,14 +82,14 @@ Inserir comentário - Tela 9
 
 Favoritos - Tela 10
 
->> INSERIR AQUI TELA DE FAVORITOS 
+![Tela 10](https://user-images.githubusercontent.com/111434777/194784837-85ebd9b2-d311-48bf-aad1-6b22e71176f8.png)
 
 
 - Na aba 'dúvidas' são apresentadas dúvidas mais comuns com respostas pré-definidas (Tela 11)
 
 Dúvidas - Tela 11
 
->> INSERIR AQUI TELA DE DÚVIDAS 
+![Tela 11](https://user-images.githubusercontent.com/111434777/194784839-e71b573a-ff16-4676-bd5b-e735df9c1837.png)
 
 
 
@@ -97,7 +97,7 @@ Dúvidas - Tela 11
 
 Conheça seus direitos - Tela 12
 
->> INSERIR AQUI TELA DE DIREITOS 
+![Tela 12](https://user-images.githubusercontent.com/111434777/194784846-97b42d60-9900-4ac9-ae91-420666cdf22e.png)
 
 
 
@@ -105,7 +105,7 @@ Conheça seus direitos - Tela 12
 
 Quem somos - Tela 13
 
->> INSERIR AQUI TELA QUEM SOMOS. 
+![Tela 13](https://user-images.githubusercontent.com/111434777/194784847-bc3ce504-73f9-451a-ac6e-4f2d6249f56b.png)
 
 
 
