@@ -39,14 +39,75 @@ Login - Tela 3
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
 
 
-![Tela 8](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
+- Ao efetuar login na plataforma, o usuário pode visualizar a galeria (Tela 4) ou inserir um novo local (Tela 5).
 
-- A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 9. 
+
+Visualizar Galeria - Tela 4 
+
+![Tela 4](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
+
+Inserir Estabelecimento - Tela 5
+
+![Tela 5](https://user-images.githubusercontent.com/111434777/194782627-d982d867-f3e2-4ac7-bb28-ba683e469cfd.png)
+
+
+- Ao inserir uma nova publicação, o usuário é direcionado para uma tela de confirmação (Tela 6)
+
+Confirmação  - Tela 6
+
+![Tela 6](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
+
+
+
+- Ao selecionar um dos locais sugeridos pela galeria, são apresentados os detalhes do mesmo (Tela 7).
+
+Detalhes do local - Tela 7
+
+![Tela 7](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
+
+
+
+- A partir desta tela de detalhes, o usuário tem a opção de entrar na página de avaliações (Tela 8) e inserir comentários avaliando sua experiência (Tela 9).
+
+Avaliações - Tela 8
+
+![Tela 8](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
+
+Inserir comentário - Tela 9
 
 ![Tela 9](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
 
-- Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 6, e então é direcionado para a Tela 5.
 
-- Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 11). 
+- Na aba 'favoritos' são apresentadas as imagens de estabelecimantos salvas pelo usuário (Tela 10).
 
-![Tela 11](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
+Favoritos - Tela 10
+
+>> INSERIR AQUI TELA DE FAVORITOS 
+
+
+- Na aba 'dúvidas' são apresentadas dúvidas mais comuns com respostas pré-definidas (Tela 11)
+
+Dúvidas - Tela 11
+
+>> INSERIR AQUI TELA DE DÚVIDAS 
+
+
+
+- Na aba 'conheça seus direitos' são apresentadas as legislações vigentes contemplando os direitos da pessoa com deficiência (Tela 12).
+
+Conheça seus direitos - Tela 12
+
+>> INSERIR AQUI TELA DE DIREITOS 
+
+
+
+- Na aba 'quem somos' apresentamos nossa proposta e o objetivo da solução.
+
+Quem somos - Tela 13
+
+>> INSERIR AQUI TELA QUEM SOMOS. 
+
+
+
+
+
