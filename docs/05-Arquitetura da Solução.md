@@ -16,14 +16,13 @@ A solução implementada conta com os seguintes módulos:
 - **Github Pages** — serviço de nuvem que permite o acesso às páginas _‘web’_ através do navegador.
 Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização de **entrega contínua** sem necessidade de configuração adicional.
 
-Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta.
+Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. Nessa tela, o usuário também pode acessar as páginas de acesso irrestrito ("FAQ", "Conheça os Direitos", "FALE CONOSCO"). 
 
 ![Landing page](https://user-images.githubusercontent.com/111434777/194611818-ca7f616c-79e6-4731-8f79-1da8809f7556.png)
 
 Caso ele opte por seguir pelo primeiro caminho (Criar conta), ele é
 redirecionado para a tela de formulário de criação de conta (Tela 2), onde pode
-inserir seus dados cadastrais. Nessa tela, o usuário também pode
-acessar as páginas de acesso irrestrito ("FAQ", "CONTATO", "FALE CONOSCO"). 
+inserir seus dados cadastrais.
 
 Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
 é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
