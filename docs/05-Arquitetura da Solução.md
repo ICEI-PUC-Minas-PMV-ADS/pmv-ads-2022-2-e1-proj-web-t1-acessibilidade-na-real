@@ -17,20 +17,15 @@ A solução implementada conta com os seguintes módulos:
 Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização de **entrega contínua** sem necessidade de configuração adicional.
 
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 1) onde ele é confrontado com as opões de criar uma conta ou
+fazer o login em uma conta existente.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte por seguir pelo primeiro caminho (Criar conta), ele é
+redirecionado para a tela de formulário de criação de conta (Tela 2), onde pode
+inserir seus dados cadastrais. Nessa tela, o usuário também pode
+acessar as páginas de acesso irrestrito ("FAQ", "CONTATO", "FALE CONOSCO"). 
 
 Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
 é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
@@ -61,7 +56,7 @@ Serão utilizadas as seguintes tecnologias no desenvolvimento:
  - Whimsical
 
 ## Hospedagem
-
+, e  
 O site será hospedado no GitHub Pages no link [exemplo.github.io](https://example.github.io)[^1], e será atualizado através de pushes com o git no repositório do Grupo 4 - [Acessibilidade na Real](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real).
 
 [^1]: O link ainda está para ser definido.
