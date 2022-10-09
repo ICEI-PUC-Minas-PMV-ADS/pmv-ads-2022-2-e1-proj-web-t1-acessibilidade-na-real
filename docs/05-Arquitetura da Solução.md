@@ -35,7 +35,7 @@ para a Tela 2.
 
 *MFLM*
 
-Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta.
+Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. O login do usuário libera acesso as telas sinalizadas em verde no fluxo.
 
 ![Landing Page2](https://user-images.githubusercontent.com/111434777/194772832-6ad710d0-8da9-4d72-b187-ec04d98bf056.png)
 
