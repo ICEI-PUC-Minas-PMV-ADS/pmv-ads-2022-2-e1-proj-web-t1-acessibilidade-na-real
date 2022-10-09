@@ -44,6 +44,3 @@ Após eventuais edições ou deleções das informações dos estabelecimentos, 
 Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
 
 ![Tela 6a](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
