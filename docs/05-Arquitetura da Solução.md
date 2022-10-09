@@ -39,15 +39,18 @@ para a Tela 2.
 
 Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta.
 
-![Landing page](https://user-images.githubusercontent.com/111434777/194768078-faedef1b-94ce-4aff-93e8-f9126d79ac43.png)
+![Landing Page2](https://user-images.githubusercontent.com/111434777/194772832-6ad710d0-8da9-4d72-b187-ec04d98bf056.png)
+
 
 Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). 
 
 ![Tela 2](https://user-images.githubusercontent.com/111434777/194771869-b159372b-5af6-47df-8c9f-93741016ac81.png)
 
-Na tela de cadastro também são disponibilizadas as páginas de acesso irrestrito ("FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO"). A próxima (Tela 3), acesso de usuários já cadastrados.
+Na tela de cadastro também é disponibilizado acesso irrestrito as páginas "FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO". Na sequência, a Tela 3 ilustra o acesso para usuários já cadastrados.
 
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
+
+
 
 
 Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). Nesta página são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 2.
