@@ -89,7 +89,7 @@ Favoritos - Tela 10
 
 Dúvidas - Tela 11
 
-![Tela 11](https://user-images.githubusercontent.com/111434777/194784839-e71b573a-ff16-4676-bd5b-e735df9c1837.png)
+![Tela 11](https://user-images.githubusercontent.com/111434777/194785132-64b21a9b-bdc8-41ff-b608-2488d54f630a.png)
 
 
 
