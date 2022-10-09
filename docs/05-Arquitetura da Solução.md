@@ -16,7 +16,6 @@ A solução implementada conta com os seguintes módulos:
 - **Github Pages** — serviço de nuvem que permite o acesso às páginas _‘web’_ através do navegador.
 Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização de **entrega contínua** sem necessidade de configuração adicional.
 
-
 A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
 (Tela 1) onde ele é confrontado com as opões de criar uma conta ou
@@ -36,8 +35,15 @@ escolher salvar ou deletar o post. Em ambos os casos o status é
 notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+*MFLM*
 
+Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Tela 1) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta.
+
+Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). É nesta tela onde são inseridos os dados cadastrais do usuário, e também são disponibilizadas as páginas de acesso irrestrito ("FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO").
+
+Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). Nesta página são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 2.
+
+![Landing page](https://user-images.githubusercontent.com/111434777/194768078-faedef1b-94ce-4aff-93e8-f9126d79ac43.png)
 
 ## Tecnologias Utilizadas
 
