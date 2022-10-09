@@ -33,7 +33,7 @@ A partir desta tela de detalhes do post, o usuário tem a opção de editar as i
 
 ![Tela 7](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
 
-Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 2.
+Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 5.
 
 ![Tela 8](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
 
