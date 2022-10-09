@@ -13,21 +13,36 @@ O diagrama apresentado na sequência mostra o fluxo de interação do usuário p
 
 ## Wireframes
 
-Landing Page
+Conforme  fluxo  de  telas  do  projeto,  apresentado  no  item  anterior,  as  telas  do  sistema  são 
+apresentadas em detalhes nos itens que se seguem. 
 
+- Ao acessar o site do projeto, o usuário se depara com essa tela inicial, onde pode acessar as páginas do cabeçalho; criar uma nova conta; acessar uma conta existente.
+
+Landing Page - Tela 1
+ 
 ![Landing Page2](https://user-images.githubusercontent.com/111434777/194777473-4064d580-96ac-4172-b548-788885ef552f.png)
 
-Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). Na tela de cadastro também é disponibilizado acesso irrestrito as páginas "Quem somos", "CONHEÇA OS DIREITOS", "FALE CONOSCO". 
+
+- Para a opção de criar uma nova conta, o usuário é direcionado para a tela um formulário simples a ser preenchido (Tela 2). Na tela de cadastro também é disponibilizado acesso irrestrito às páginas "QUEM SOMOS", "CONHEÇA OS DIREITOS", "FALE CONOSCO". 
+
+
+Criar conta - Tela 2 
 
 ![Tela 2](https://user-images.githubusercontent.com/111434777/194771869-b159372b-5af6-47df-8c9f-93741016ac81.png)
 
-Na sequência, a Tela 3 ilustra o acesso para usuários já cadastrados.
+
+- Para a opção de entrar com uma conta existente, seguimos com o fluxo de acesso de login (Tela 3).
+
+
+Login - Tela 3
 
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
 
-Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). 
+Ao efetuar login na plataforma, o usuário é direcionado a Tela 4 (Visualizar Galeria). 
 
-![Tela 5](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
+
+
+![Tela 4](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
 
 São apresentadas as imagens dos estabelecimantos cadastrados na plataforma, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
 
