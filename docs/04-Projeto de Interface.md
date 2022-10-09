@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-Norteamos a interface do sistema na informação clara, objetiva, e segura do usuário. Assim, apenas usuários registrados acessam e editam informações cadastrais e visuais dos estabelecimentos, enquanto informações gerais (como legislação vigente) apresentam acesso irrestrito. E as telas foram projetadas para funcionamento em desktops e dispositivos móveis.
+Norteamos a interface do sistema na informação segura e objetiva do usuário. Assim, apenas usuários registrados acessam e editam informações cadastrais e visuais dos estabelecimentos, enquanto informações gerais (como legislação vigente) apresentam acesso irrestrito. E as telas foram projetadas para funcionamento em desktops e dispositivos móveis.
 
 ## User Flow
 
@@ -23,7 +23,13 @@ Na sequência, a Tela 3 ilustra o acesso para usuários já cadastrados.
 
 Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). 
 
+![5](https://user-images.githubusercontent.com/111434777/194774538-2eba56b8-cbbb-43da-9d15-6f3b42dbc427.png)
+
+
+
 ![Tela 5](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
+
+![Nesta](https://user-images.githubusercontent.com/111434777/194774608-25ec96be-fc0f-4733-9af3-06313cbb750a.png)
 
 Nesta página são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
 
