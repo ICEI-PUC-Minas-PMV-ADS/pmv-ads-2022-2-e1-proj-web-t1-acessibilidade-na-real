@@ -13,6 +13,10 @@ O diagrama apresentado na sequência mostra o fluxo de interação do usuário p
 
 ## Wireframes
 
+Landing Page
+
+![Landing Page2](https://user-images.githubusercontent.com/111434777/194777473-4064d580-96ac-4172-b548-788885ef552f.png)
+
 Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). Na tela de cadastro também é disponibilizado acesso irrestrito as páginas "Quem somos", "CONHEÇA OS DIREITOS", "FALE CONOSCO". 
 
 ![Tela 2](https://user-images.githubusercontent.com/111434777/194771869-b159372b-5af6-47df-8c9f-93741016ac81.png)
