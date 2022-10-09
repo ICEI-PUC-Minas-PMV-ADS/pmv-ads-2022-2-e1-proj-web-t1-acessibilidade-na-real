@@ -39,14 +39,32 @@ Login - Tela 3
 ![Tela 3](https://user-images.githubusercontent.com/111434777/194772315-8ce07ce9-63be-4eba-a614-ab0995c1f738.png)
 
 
-![Tela 8](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
+- Ao efetuar login na plataforma, o usuário pode visualizar a galeria (Tela 4) ou inserir um novo local (Tela 5).
 
-- A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 9. 
 
-![Tela 9](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
+Visualizar Galeria - Tela 4 
 
-- Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 6, e então é direcionado para a Tela 5.
+![Tela 4](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
 
-- Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 11). 
 
-![Tela 11](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
+Inserir estabelecimento - Tela 5
+
+![Cadastro Local](https://user-images.githubusercontent.com/111434777/194783197-dccf49f6-d4b3-42c2-9233-a08c89a18dc3.png)
+
+
+- Ao selecionar um dos locais sugeridos, são apresentados os detalhes do mesmo (Tela 5).
+
+![Tela 5](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
+
+
+- A partir desta tela de detalhes, o usuário tem a opção de inserir comentários avaliando sua experiência (Tela 6).
+
+![Tela 6](https://user-images.githubusercontent.com/111434777/194773627-35a06c55-ea89-4ea1-9a41-463e12ec437f.png)
+
+- Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 5.
+
+![Tela 8](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
+
+Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
+
+![Tela 6a](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
