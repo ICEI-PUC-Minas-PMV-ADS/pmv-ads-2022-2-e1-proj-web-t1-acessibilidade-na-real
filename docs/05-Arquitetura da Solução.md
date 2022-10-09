@@ -16,47 +16,11 @@ A solução implementada conta com os seguintes módulos:
 - **Github Pages** — serviço de nuvem que permite o acesso às páginas _‘web’_ através do navegador.
 Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização de **entrega contínua** sem necessidade de configuração adicional.
 
-Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. Nessa tela, o usuário também pode acessar as páginas de acesso irrestrito ("FAQ", "Conheça os Direitos", "FALE CONOSCO"). 
+Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. Nessa tela, o usuário também pode acessar as páginas de acesso irrestrito ("FAQ", "Conheça os Direitos", "FALE CONOSCO"). E o login libera acesso as telas sinalizadas em verde no fluxo. 
 
 ![Landing page](https://user-images.githubusercontent.com/111434777/194611818-ca7f616c-79e6-4731-8f79-1da8809f7556.png)
 
-Caso ele opte por seguir pelo primeiro caminho (Criar conta), ele é
-redirecionado para a tela de formulário de criação de conta (Tela 2), onde pode
-inserir seus dados cadastrais.
-
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
-
-*MFLM*
-
-Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. O login do usuário libera acesso as telas sinalizadas em verde no fluxo.
-
-![Landing Page2](https://user-images.githubusercontent.com/111434777/194772832-6ad710d0-8da9-4d72-b187-ec04d98bf056.png)
-
-
-Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). Na tela de cadastro também é disponibilizado acesso irrestrito as páginas "Quem somos", "CONHEÇA OS DIREITOS", "FALE CONOSCO". 
-
-Na sequência, a Tela 3 ilustra o acesso para usuários já cadastrados.
-
-
-Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). 
-
-
-Nesta página são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
-
-
-A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. 
-
-
-Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 2.
-
-
+O acesso do usuário logado viabiliza acessar a lista de estabelecimentos marcados como 'favoritos', listagem de estabelecimentos cadastrados na aplicação web, e ainda cadastrar novos estabelecimetos na plataforma.
 
 ## Tecnologias Utilizadas
 
