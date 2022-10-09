@@ -41,7 +41,11 @@ Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plata
 
 ![Landing page](https://user-images.githubusercontent.com/111434777/194768078-faedef1b-94ce-4aff-93e8-f9126d79ac43.png)
 
-Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). É nesta tela onde são inseridos os dados cadastrais do usuário, e também são disponibilizadas as páginas de acesso irrestrito ("FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO").
+Para a opção criar nova conta, o usuário é direcionado para a tela de formulário de criação de conta (Tela 2). 
+
+![Tela 2](https://user-images.githubusercontent.com/111434777/194771869-b159372b-5af6-47df-8c9f-93741016ac81.png)
+
+É nesta tela onde são inseridos os dados cadastrais do usuário, e também são disponibilizadas as páginas de acesso irrestrito ("FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO").
 
 Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar Galeria). Nesta página são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. Após eventuais edições ou deleções das informações dos estabelecimentos, o usuário é notificado pela Tela 8, e então é direcionado para a Tela 2.
 
