@@ -29,11 +29,9 @@ Ao efetuar login na plataforma, o usuário é direcionado a Tela 5 (Visualizar G
 
 ![Tela 5](https://user-images.githubusercontent.com/111434777/194773265-2861edf9-e7b8-4b45-855a-72b6da554995.png)
 
-![Nesta](https://user-images.githubusercontent.com/111434777/194774608-25ec96be-fc0f-4733-9af3-06313cbb750a.png)
+São apresentadas as imagens dos estabelecimantos cadastrados na plataforma, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
 
-Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
-
-![Tela 6a](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
+![imagens local](https://user-images.githubusercontent.com/111434777/194777687-c2661e9a-dbe8-466b-8897-a55542b23f88.png)
 
 A partir desta tela de detalhes do post, o usuário tem a opção de editar as informações cadastradas, sendo então direcionado para a Tela 7. 
 
@@ -43,7 +41,9 @@ Após eventuais edições ou deleções das informações dos estabelecimentos, 
 
 ![Tela 8](https://user-images.githubusercontent.com/111434777/194773638-8ad07250-5ce7-47df-b5bc-85579a571ff6.png)
 
+Na aba favoritos são apresentadas as imagens de estabelecimantos salvas pelo usuário, e ao clicar nessas imagens são apresentados os detalhes do post (Tela 6). 
 
+![Tela 6a](https://user-images.githubusercontent.com/111434777/194773549-6ba76283-d725-4d50-b7bf-9c81f8d168fb.png)
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
