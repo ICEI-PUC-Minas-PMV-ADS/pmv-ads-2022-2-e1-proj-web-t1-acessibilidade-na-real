@@ -49,7 +49,7 @@ Visualizar Galeria - Tela 4
 
 Inserir estabelecimento - Tela 5
 
-[INSERIR TELA]
+![Cadastro Local](https://user-images.githubusercontent.com/111434777/194783197-dccf49f6-d4b3-42c2-9233-a08c89a18dc3.png)
 
 
 - Ao selecionar um dos locais sugeridos, são apresentados os detalhes do mesmo (Tela 5).
