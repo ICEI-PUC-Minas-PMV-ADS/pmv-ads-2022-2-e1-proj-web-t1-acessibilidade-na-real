@@ -18,7 +18,7 @@ Ele será utilizado na hospedagem por ser um serviço do Github que permite hosp
 
 Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta.
 
-![Landing Page2](https://user-images.githubusercontent.com/111434777/194772832-6ad710d0-8da9-4d72-b187-ec04d98bf056.png)
+![Landing page](https://user-images.githubusercontent.com/111434777/194611818-ca7f616c-79e6-4731-8f79-1da8809f7556.png)
 
 Caso ele opte por seguir pelo primeiro caminho (Criar conta), ele é
 redirecionado para a tela de formulário de criação de conta (Tela 2), onde pode
