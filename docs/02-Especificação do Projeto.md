@@ -60,10 +60,11 @@ A  tabela  a  seguir  apresenta  os  requisitos  do  projeto,  identificando  a 
 | RF03 | Permitir ao usuário salvar seus locais favoritos em uma lista | Baixa |
 | RF04 | Informar se funcionários e colaboradores dos estabelecimentos atendem adequadamente clientes deficientes | Média |
 | RF05 | Permitir o usuário deixar avaliações e comentários seguindo sua experiência | Baixa |
-| RF06 | Permitir ao usuário ver fotos do local quando acessar a sua página | Alta |
+| RF06 | Permitir ao usuário ver fotos do local quando acessar a sua página | Média |
 | RF07 | Permitir o usuário filtrar as formas de acessibilidade que ele julga mais importantes | Alta |
 | RF08 | A aplicação deve fornecer opções de contato com o estabelecimento | Baixa |
 | RF09 | A aplicação deve solicitar login para postagem de um comentário ou avaliação | Baixa |
+| RF10 | Permitir o usuário realizar cadastro para poder acessar sua lista de favoritos | Alta |
 
 
 ### Requisitos não Funcionais
