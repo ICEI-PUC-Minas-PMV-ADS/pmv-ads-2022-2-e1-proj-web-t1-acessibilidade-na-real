@@ -16,12 +16,6 @@ A solução implementada conta com os seguintes módulos:
 - **Github Pages** — serviço de nuvem que permite o acesso às páginas _‘web’_ através do navegador.
 Ele será utilizado na hospedagem por ser um serviço do Github que permite hospedagem de arquivos de HTML, CSS e Javascript sem cobrança pela disponibilização de tais serviços, além da facilidade na disponibilização de **entrega contínua** sem necessidade de configuração adicional.
 
-Ilustramos a seguir o fluxo do usuário em nossa aplicação. Ao acessar a plataforma, a tela inicial (Landing Page) oferece ao usuário as opções login em uma conta existente, ou criar uma nova conta. Nessa tela, o usuário também pode acessar as páginas de acesso irrestrito ("FAQ", "CONHEÇA OS DIREITOS", "FALE CONOSCO"). O login libera ao usuário o acesso às telas sinalizadas em verde. 
-
-![Landing page](https://user-images.githubusercontent.com/111434777/194611818-ca7f616c-79e6-4731-8f79-1da8809f7556.png)
-
-O acesso do usuário logado viabiliza acessar a lista de estabelecimentos marcados como 'favoritos', listagem de estabelecimentos cadastrados na aplicação web, e ainda cadastrar novos estabelecimentos na plataforma.
-
 ## Tecnologias Utilizadas
 
 Serão utilizadas as seguintes tecnologias no desenvolvimento:
