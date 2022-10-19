@@ -13,8 +13,7 @@ ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente | Plataforma | Link de Acesso |
 | -------------------- | ------------------------------------ | ---------------------------------------- |
-| Repositório de código fonte | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real |
-| Documentos do projeto | Google Drive | https://docs.google.com/document/d/1H_dWhBlCfzp1HD9V2fYEbn83p2RC1qYPfM1L6ZiNtBA/edit |
+| Repositório do projeto | Github | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real |
 | Projeto de Interface e Wireframes | MarvelApp | https://marvelapp.com/prototype/2gecc0dg |
 | Gerenciamento do Projeto | GitHub Project | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/142/views/1|
 
