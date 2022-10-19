@@ -12,11 +12,13 @@ Trata-se de uma aplicação web, que possibilitará à pessoa com deficiência o
 
 ## Integrantes
 
+
 * Grazielly Pereira de Oliveira
-* Reinaldo Theodoro Marquezini
 * Juliano Ricaldoni Alves de Melo
-* Matheus de França Loyola Mourão
 * Leandro Borges Isaias
+* Matheus de França Loyola Mourão
+* Reinaldo Theodoro Marquezini
+
 
 
 ## Orientador
