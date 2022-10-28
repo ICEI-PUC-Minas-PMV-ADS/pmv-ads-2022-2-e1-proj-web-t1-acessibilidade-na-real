@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 header{
+    align-items: baseline;
+    width: 100%;
     padding-top:0.1%;
     font-family: 'Adamina';
-    font-weight: bold !important;
-
+    font-weight: bolder;
 }
 
 body{
@@ -18,16 +19,14 @@ ul{
 }
 ul li{
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-    text-align: right;
-    color: black;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 0 5%;
 }
 
 .logo{
     margin-left: 5px;
-    font-weight: bold;
-    border-radius: 12%;
     text-align: center;
 }
 
@@ -38,4 +37,20 @@ a{
 
 a:link{
     text-decoration: none;
+}
+
+.button{
+    display: block;
+    margin: 0 auto;
+    background-color: #9A348e;
+    color: white;
+    padding: 2px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_container{
+    text-align: center;
+    margin: 5% 0 3% 0;
+    border: 50px;
 }
