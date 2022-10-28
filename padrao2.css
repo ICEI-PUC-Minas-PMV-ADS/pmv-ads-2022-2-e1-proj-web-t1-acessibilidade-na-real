@@ -1,0 +1,74 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    header{
+        padding-top:0.1%;
+        background-color: hsl(258, 97%, 62%);
+    }
+    a{
+        display: block;
+    }
+    
+    a:link{
+        text-decoration: none;
+    }
+    ul{
+        padding: 0;
+        font-weight: bold;
+    }
+    ul li{
+        display: inline-block;
+        margin-right: 10px;
+        text-align: right;
+        color: black;
+    }
+    h2 {text-align: center; 
+        color: #da628a;  
+        font-size:30px 
+    }
+    form {
+        /* Apenas para centralizar o form na página */
+        margin: 0 auto;
+        width: 400px;
+        /* Para ver as bordas do formulário */
+        padding: 1em;
+        border: 1px solid rgb(193, 65, 253);
+        border-radius: 1em;
+    }
+    form div + div {
+        margin-top: 1em;
+    }
+    label {
+        /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+        display: inline-block;
+        width: 55px;
+        text-align: left;
+    }
+    input, textarea {
+        
+        /* Para dar o mesmo tamanho a todos os campo de texto */
+        width: 300px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    
+        /* Para harmonizar o look & feel das bordas nos campos de texto*/
+        border: 1px solid #999;
+    }
+    input:focus, textarea:focus {
+        /* Dar um pouco de destaque nos elementos ativos */
+        border-color: #0d0628;
+    }
+    button {
+        padding-left: 100px; 
+        background-color: #71349a; 
+        border-radius: 10px;
+        color: rgba(111, 22, 138, 0.986);
+        padding: 8px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        position: relative;
+        left: 135px;
+        cursor: pointer;
+      }
