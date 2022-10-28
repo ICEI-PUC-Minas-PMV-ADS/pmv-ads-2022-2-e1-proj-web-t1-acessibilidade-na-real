@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page.css">
+  <title>Acessibilidade na Real</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href=""><img src="logo_page.png" alt="Logo" style="width:150px;height:150px;"> </a>
+      </div>
+      <ul>
+        <li><a href="" style="color: black;">QUEM SOMOS</a></li>
+        <li><a href="" style="color: black;">DÚVIDAS</a></li>
+        <li><a href="" style="color: black;">FAVORITOS</a></li>
+        <li><a href="" style="color: black;">CONHEÇA SEUS DIREITOS</a></li>
+      </ul>
+      <hr>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <h2>Crie sua conta</h2>
+  <form>
+    <fieldset>
+      <legend>Dados da conta</legend>
+      <label for="fname">Nome:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <br>
+
+      <label for="lname">Sobrenome:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <br>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Endereço</legend>
+      <label for="street">Rua:</label><br>
+      <input type="text" id="street" name="street"><br>
+      <br>
+
+      <label for="city">Cidade:</label><br>
+      <input type="text" id="city" name="city"><br>
+      <br>
+
+      <label for="state">Estado:</label> <select id="state" name="state">
+        <option value="MG" selected>MG</option>
+        <option value="RJ">RJ</option>
+        <option value="SP">SP</option>
+
+      </select><br>
+      <br>
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>Dados de login</legend>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+      <br>
+
+      <label for="password">Senha:</label><br>
+      <input type="password" placeholder="Escolha uma senha" id="password" required><br>
+      <br>
+      <label for="password">Confirmar senha:</label><br>
+      <input type="password" placeholder="Digite novamente" id="confirm_password" required><br>
+      <br>
+
+    </fieldset>
+    <br>
+    <button class="button" type="button" onclick="alert('Sua conta foi criada com sucesso!')">Criar conta</button>
+  </form>
+  <br>
+  <br>
+</body>
+
+</html>
