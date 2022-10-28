@@ -6,29 +6,36 @@ body{
 }
 
 header{
-    background-color: #f0f0f0;
     align-items: baseline;
     width: 100%;
     padding-top:0.1%;
     font-family: 'Adamina';
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .logo{
     margin-left: 5px;
-    font-weight: bold;
-    border-radius: 12%;
     text-align: center;
 }
 
 
-ul{
+ul {
+    list-style-type: none;
+    text-align: center;
     padding: 0;
-    text-align: center;
+    margin: 0;
 }
-ul li{
+
+ul li {
     display: inline-block;
-    margin: 0 50px;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 0 2%;
+    background-color: #f0f0f0;
+}
+
+a{
     color: black;
 }
 
@@ -65,6 +72,7 @@ p{
 .btn_container{
     text-align: center;
     margin: 5% 0 3% 0;
+    border: 50px;
 }
 
 ::-webkit-scrollbar{
