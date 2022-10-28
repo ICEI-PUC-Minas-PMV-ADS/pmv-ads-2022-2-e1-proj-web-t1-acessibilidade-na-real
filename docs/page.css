@@ -1,0 +1,16 @@
+header{
+    padding-top:0.1%;
+    background-color: #fca17d;
+}
+
+ul{
+    padding: 0;
+    font-family: 'Din Next',sans-serif;
+    font-weight: bold;
+}
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    color: black;
+}

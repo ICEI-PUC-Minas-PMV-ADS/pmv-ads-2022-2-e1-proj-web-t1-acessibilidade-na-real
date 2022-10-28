@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding-top:0.1%;
+    font-family: 'Adamina';
+    font-weight: bold !important;
+
+}
+
+.logo {
+    margin-left: 5px;
+    font-weight: bold;
+    border-radius: 12%;
+    text-align: center;
+}
+
+a {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 130px;
+    margin-left: 130px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center; 
+    color: #da627d;  
+    font-size:30px 
+}
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: auto;
+    text-align: left;
+}
+input, textarea {
+    
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 350px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #0d0628;
+}
+.button {
+    background-color: #9a348e; 
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+  }
