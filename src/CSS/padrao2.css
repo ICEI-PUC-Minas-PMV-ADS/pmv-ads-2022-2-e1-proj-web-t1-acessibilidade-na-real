@@ -1,27 +1,5 @@
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    header{
-        padding-top:0.1%;
-        background-color: hsl(258, 97%, 62%);
-    }
-    a{
-        display: block;
-    }
-    
-    a:link{
-        text-decoration: none;
-    }
-    ul{
-        padding: 0;
-        font-weight: bold;
-    }
-    ul li{
-        display: inline-block;
-        margin-right: 10px;
-        text-align: right;
-        color: black;
-    }
+@import "header.css";
+ 
     h2 {text-align: center; 
         color: #da628a;  
         font-size:30px 
