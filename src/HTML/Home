@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Acessibilidade na Real</title>
+</head>
+<body>
+    <div class="cabeçalho">
+        <body style="background-color: #ffffff;">
+        <header>
+             <nav>
+          <div class="logo">
+          <a href=""><img src="logo_page.png" alt="Logo" style="width:150px;height:150px;" > </a>
+          </div>
+          <ul>
+              <li><a href="" style="color: black;">QUEM SOMOS</a></li>
+              <li><a href="" style="color: black;">DÚVIDAS</a></li>
+              <li><a href="" style="color: black;">FAVORITOS</a></li>
+              <li><a href="" style="color: black;">CONHEÇA SEUS DIREITOS</a></li>
+          </ul>
+         <hr>
+         </nav>
+         </div>
+        
+    
+        <div class="row">
+          <div class="column">
+            <center>
+         <img src="Images/hotel.png"
+         width="100px" /><p>
+         </center>
+            <h2>Hotéis</h2>
+            <p>Acesse informações confiáveis e fidedignas dos locais onde se hospedará</p>
+          </div>
+          
+          <div class="column">
+            <center>
+         <img src="Images/restaurante.png"
+         width="120px" /><p>
+         </center>
+         <h2>Restaurantes</h2>
+            <p>Evite estabelecimentos onde o espaço é insuficiente entre as mesas, pois geram dificuldades e 
+               transtornos em seu deslocamento</p>
+          </div>
+          
+          <div class="column">
+            <center>
+         <img src="Images/bar.png"
+         width="110px" /><p>
+         </center>
+            <h2>Bares</h2>
+            <p>Frequente estabelecimentos onde haja o adequado funcionamento das 
+               adaptações de acessibilidade</p>
+          </div>
+            
+             <div class="column">
+                <center>
+         <img src="Images/museu.png"
+         width="110px" /><p>
+         </center>
+            <h2>Museus</h2>
+            <p>Cobre o responsável pelo local, caso os funcionários não estejam treinados</p>
+          </div>
+            
+</body>
+</html>
