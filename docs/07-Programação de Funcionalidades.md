@@ -17,6 +17,8 @@ Requisitos atendidos:
 
 Artefatos da funcionalidade:
 - index.html
+- index.css
+- main.js
 - logo_page.png
 - favicon.ico
 - video_intro.mp4 ** 
@@ -36,6 +38,7 @@ Requisitos atendidos:
 
 Artefatos da funcionalidade:
 - sign-up.html
+- sign-up.css
 - logo_page.png
 - favicon.ico
 
@@ -51,15 +54,50 @@ Requisitos atendidos:
 
 Artefatos da funcionalidade:
 - sign-in.html
+- sign-in.css
 - logo_page.png
 - favicon.ico
 
-<h2>Home<h2>
+<h2>Home</h2>
 
 Tela inicial mostrando os tipos de estabelecimentos disponíveis. Nela, o usuário pode escolher o tipo de estabelecimento que deseja acessar, e clicar no botão correspondente para ser redirecionado para a página de listagem de estabelecimentos. Um exemplo da tela se dá na imagem 04.
 
-![home](https://user-images.githubusercontent.com/99608391/198899440-1b5b2b1f-1b8d-4b2e-8b1a-1b2b2b2b2b2b.png)
+![home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real/blob/main/docs/img/Screenshot_1.png?raw=true)
 
+*Imagem 04 - Home
+
+Requisitos atendidos:
+- RF-11 - Permitir o usuário selecionar o tipo de estabelecimento que procura.
+
+Artefatos da funcionalidade:
+
+- home.html
+- home.css
+- logo_page.png
+- hotel.png
+- restaurante.png
+- bar.png
+- museu.png
+- favicon.ico
+
+<h2>Lista de Estabelecimentos</h2>
+
+Tela que mostra a lista de estabelecimentos cadastrados no sistema, de acordo com o tipo de estabelecimento escolhido na tela anterior. Nela, o usuário pode escolher o estabelecimento que deseja acessar, e clicar no botão correspondente para ser redirecionado para a página de detalhes do estabelecimento. Um exemplo da tela se dá na imagem 05.
+
+![lista-estabelecimentos](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real/main/docs/img/Screenshot_9.png)
+
+*Imagem 05 - Lista de Estabelecimentos
+
+Requisitos atendidos:
+
+- RF-12 - Permitir o usuário visualizar uma gama de estabelecimentos do tipo que foi selecionado.
+
+Artefatos da funcionalidade:
+
+- Galeria3.html
+- padrão1.css
+- logo_page.png
+- favicon.ico
 
 
 

@@ -32,15 +32,6 @@ article{
     border: 50px;
 }
 
-::-webkit-scrollbar{
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #fca17d;
-    border-radius: 10px;
-}
-
 @media only screen and (max-width: 640px){
     .video{
         height: auto;

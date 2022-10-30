@@ -15,3 +15,11 @@
     margin: 5% 0 3% 0;
     border: 50px;
 }
+
+.itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0 0 10%;
+}
