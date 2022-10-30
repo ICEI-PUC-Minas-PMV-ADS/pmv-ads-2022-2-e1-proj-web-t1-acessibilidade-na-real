@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding-top:0.1%;
+    font-family: 'Adamina';
+    font-weight: bold !important;
+
+}
+
+.logo {
+    margin-left: 5px;
+     border-radius: 12%;
+    text-align: center;
+    background-color: D58BDD;
+}
+
+a {
+    display: block;
+}
+
+a:link {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 130px;
+    margin-left: 130px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+
+}
+
+
+
+a{
+    display: block;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+    /* Create four equal columns that floats next to each other */
+    .column {
+  float: left;
+  width: 10%;
+  padding: 110px;
+  text-align: center;
+}
+   /* Clear floats after the columns */
+    .row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+
+  .logo {
+    margin-left: 5px;
+     border-radius: 12%;
+    text-align: center;
+    
+}
+
+
+}
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
