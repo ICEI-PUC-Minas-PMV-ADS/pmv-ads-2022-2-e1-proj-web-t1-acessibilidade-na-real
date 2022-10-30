@@ -3,7 +3,7 @@
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. O respectivo endereço (URL) e outras orientações de acesso são apresentados na sequência.
 
 
-<h2>Home Page</h2>
+<h2>Landing Page</h2>
 
 Tela principal da aplicação, por onde se inicia o fluxo de acesso do usuário no site. Consiste em um cabeçalho fixo e padronizado com alguns itens de menu, e a logo do projeto. No corpo da página, temos um vídeo demonstrativo sobre a iniciativa, e também os botões de acesso às páginas de 'sign-in' e 'sign-up'. Um exemplo da tela se dá na imagem 01.
 
