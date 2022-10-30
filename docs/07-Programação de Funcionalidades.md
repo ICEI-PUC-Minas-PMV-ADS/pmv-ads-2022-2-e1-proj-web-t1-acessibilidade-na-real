@@ -54,6 +54,11 @@ Artefatos da funcionalidade:
 - logo_page.png
 - favicon.ico
 
+<h2>Home<h2>
+
+Tela inicial mostrando os tipos de estabelecimentos disponíveis. Nela, o usuário pode escolher o tipo de estabelecimento que deseja acessar, e clicar no botão correspondente para ser redirecionado para a página de listagem de estabelecimentos. Um exemplo da tela se dá na imagem 04.
+
+![home](https://user-images.githubusercontent.com/99608391/198899440-1b5b2b1f-1b8d-4b2e-8b1a-1b2b2b2b2b2b.png)
 
 
 
