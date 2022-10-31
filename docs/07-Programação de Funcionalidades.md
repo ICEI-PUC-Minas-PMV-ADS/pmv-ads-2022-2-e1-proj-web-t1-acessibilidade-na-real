@@ -29,7 +29,7 @@ Artefatos da funcionalidade:
 
 Tela que permite o usuário se cadastrar na aplicação, após o preenchimento de um formulário simples de cadastro. Com isso, o usuário passa a ter livre acesso por todas as telas do site. Um exemplo da tela se dá na imagem 02. 
 
-![sign-up](https://user-images.githubusercontent.com/99608391/198898899-43bea871-5130-4a75-b3de-15a43eaf2f48.png)
+![sign-up](https://user-images.githubusercontent.com/99608391/198908758-0b189e03-bc91-4285-8cc1-cc8aa212922b.png)
 
 *Imagem 02 - Sign-up
 
@@ -45,7 +45,7 @@ Artefatos da funcionalidade:
 <h2>Sign-in</h2>
 
 Tela que permite o usuário putrora cadastrado, acessar as demais telas do site. Sendo necessário apenas informar o email e senha cadastrados. Um exemplo da tela se dá na imagem 03.
-![sign-in](https://user-images.githubusercontent.com/99608391/198899202-fe750860-f8bb-41cb-9618-1a4fb6e9e6ec.png)
+![sign-in](https://user-images.githubusercontent.com/99608391/198908750-3366bb2d-5ff3-49fa-ab01-26b970302422.png)
 
 *Imagem 03 - Sign-in
 
