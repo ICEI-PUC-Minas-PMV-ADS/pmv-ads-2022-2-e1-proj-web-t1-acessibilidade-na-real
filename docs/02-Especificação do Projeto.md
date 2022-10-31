@@ -65,6 +65,8 @@ A  tabela  a  seguir  apresenta  os  requisitos  do  projeto,  identificando  a 
 | RF08 | A aplicação deve fornecer opções de contato com o estabelecimento | Baixa |
 | RF09 | A aplicação deve solicitar login para postagem de um comentário ou avaliação | Baixa |
 | RF10 | Permitir o usuário realizar cadastro para poder acessar sua lista de favoritos | Alta |
+| RF11 | Permitir o usuário selecionar o tipo de estabelecimento que procura | Média |
+| RF12 | Permitir o usuário visualizar uma gama de estabelecimentos do tipo que foi selecionado | Média |
 
 
 ### Requisitos não Funcionais
