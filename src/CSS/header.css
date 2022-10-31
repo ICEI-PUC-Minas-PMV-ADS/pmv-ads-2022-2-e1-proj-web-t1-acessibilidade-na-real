@@ -18,14 +18,14 @@ header{
 }
 
 
-ul {
+.topnav {
     list-style-type: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
-ul li {
+.topnav > li {
     display: inline-block;
     padding: 8px 16px;
     border: 1px solid black;
@@ -49,3 +49,31 @@ a:link{
     background: #fca17d;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1441px){
+    .topnav > li{
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1045px){
+    .topnav > li{
+        margin: 0 20px;
+    }
+}
+    
+
+
+@media screen and (max-width: 600px) {
+    /* como centralizar, flexionar e deixar os itens do .header da mesma largura */
+    .topnav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topnav > li {
+        display: block;
+        margin: 0;
+    }
+}
+    

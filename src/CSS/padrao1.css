@@ -23,3 +23,24 @@
     align-items: center;
     margin: 5px 0 0 10%;
 }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+img{
+    margin-top: 5px;
+    padding: 0px 5px;
+}
+p{
+    margin: 0;
+    padding: 0px 5px;
+}
