@@ -4,31 +4,40 @@
 h1 {
   text-align: center;
 }
-/* how to center and create border around .avaliacoes */
+main{
+  margin-bottom: 1em;
+}
 .avaliacoes {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 5px solid black;
   border-style: groove;
   width: 60%;
   margin: 0 auto;
-  background: linear-gradient(0deg, #ffffff, #add8e6);
+  background: linear-gradient(0deg, #ffffff, #c0c0c0);
 }
-
 .avaliacao{
   margin: 2%;
   border: 2px solid black;
   border-radius: 12px;
   padding: 5px;
-  background-color: #ffffff;
+  background-color: #f0efef;
 
 }
-
 .avaliacao_comentario{
   line-height: 1em;
   height: 4em;
 }
-.ler_mais{
+.mais{
   display: none;
+}
+.ler_mais{
+  text-align: right;
+  color: #858585;
+  cursor: pointer;
+}
+.ler_mais:hover{
+  color: #000000;
 }
