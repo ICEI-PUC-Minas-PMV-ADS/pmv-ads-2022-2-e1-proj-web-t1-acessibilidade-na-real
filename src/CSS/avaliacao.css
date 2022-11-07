@@ -28,7 +28,7 @@ main{
 }
 .avaliacao_comentario{
   line-height: 1em;
-  height: 4em;
+  height: fit-content;
 }
 .mais{
   display: none;
