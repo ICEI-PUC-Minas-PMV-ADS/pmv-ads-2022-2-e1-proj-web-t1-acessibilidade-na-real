@@ -1,0 +1,15 @@
+@import "header.css";
+
+/* how to separate .column and image horizontally */
+.container{
+    margin-left: 2%;
+}
+.column{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-content-item{
+    width: 20%;
+    margin: 1%;
+}
