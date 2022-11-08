@@ -27,17 +27,17 @@ main{
 
 }
 .avaliacao_comentario{
+  transition: 2s;
   line-height: 1em;
   height: fit-content;
 }
 .mais{
   display: none;
 }
-.ler_mais{
-  text-align: right;
-  color: #858585;
+.ler-mais{
+  color: blue;
   cursor: pointer;
 }
-.ler_mais:hover{
-  color: #000000;
+.ler-mais:hover{
+  color: blue;
 }
