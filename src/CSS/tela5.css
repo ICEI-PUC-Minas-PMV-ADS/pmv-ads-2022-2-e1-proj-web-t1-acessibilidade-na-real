@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding-top: 0.1%;
+    font-family: 'Adamina';
+    font-weight: bold !important;
+
+}
+
+.logo {
+  margin-left: 5px;
+  border-radius: 12%;
+ text-align: center;
+ 
+}
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width:600px) {
+.column {
+ width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+}
+ul{
+  padding: 0;
+  font-weight: bold;
+  
+}
+ul li{
+  display: inline-block;
+  margin-right: 10px;
+  text-align: right;
+  color: black;
+}
+
+a {
+    display: block;
+    color: white;
+    margin-right: 10px;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 10%;
+    padding: 110px;
+    text-align: center;
+}
+
+span.a {
+    display: inline;
+    /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+span.a
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 2.5em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
