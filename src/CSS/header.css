@@ -8,7 +8,6 @@ body{
 header{
     align-items: baseline;
     width: 100%;
-    padding-top:0.1%;
     font-family: 'Adamina';
     font-weight: bolder;
 }
@@ -16,15 +15,12 @@ header{
     margin-left: 5px;
     text-align: center;
 }
-
-
 .topnav {
     list-style-type: none;
     text-align: center;
     padding: 0;
     margin: 0;
 }
-
 .topnav > li {
     display: inline-block;
     padding: 8px 16px;
@@ -32,24 +28,19 @@ header{
     border-radius: 12px;
     margin: 0 100px;
 }
-
 a{
     color: black;
 }
-
 a:link{
     text-decoration: none;
 }
-
 ::-webkit-scrollbar{
     width: 10px;
 }
-
 ::-webkit-scrollbar-thumb{
     background: #fca17d;
     border-radius: 10px;
 }
-
 @media screen and (max-width: 1441px){
     .topnav > li{
         margin: 0 50px;

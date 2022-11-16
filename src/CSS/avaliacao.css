@@ -1,43 +1,33 @@
 @import "header.css";
 
-
-h1 {
-  text-align: center;
-}
-main{
-  margin-bottom: 1em;
-}
-.avaliacoes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 5px solid black;
-  border-style: groove;
-  width: 60%;
-  margin: 0 auto;
-  background: linear-gradient(0deg, #ffffff, #c0c0c0);
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
 }
 .avaliacao{
-  margin: 2%;
-  border: 2px solid black;
-  border-radius: 12px;
-  padding: 5px;
-  background-color: #f0efef;
-
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
 }
-.avaliacao_comentario{
-  transition: 2s;
-  line-height: 1em;
-  height: fit-content;
+#nota{
+    display: none;
 }
-.mais{
-  display: none;
+#comentario{
+    width: 100%;
+    height: 100px;
+    resize: none;
 }
-.ler-mais{
-  color: blue;
-  cursor: pointer;
-}
-.ler-mais:hover{
-  color: blue;
+.enviar{
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
 }

@@ -1,19 +1,15 @@
-document.getElementById("mostrar-mais").onclick = function(){ 
-	// Cria as variáveis que irão armazenar os elementos
-	var pontos = document.getElementById("ponto");
-	var maisTexto = document.getElementById("mais");
-	var textoBtn = document.getElementById("mostrar-mais");
-
-	// Verifica se o texto está expandido ou não
-	if (pontos.style.display === "none") {
-		// altera os elementos para o estado inicial
-		pontos.style.display = "inline";
-		textoBtn.innerHTML = "Mais";
-		maisTexto.style.display = "none";
-	} else {
-		// altera os elementos para o estado expandido
-		pontos.style.display = "none";
-		textoBtn.innerHTML = "Menos";
-		maisTexto.style.display = "inline";
-	}
+function classificacaoNota(item){
+    var nota = item.id;
+    sessionStorage.valor = nota;
+    for (var i = 1; i <= 5; i++) {
+        if (i <= nota) {
+            document.getElementById(i).style.color = "orange";
+        }
+        else {
+            document.getElementById(i).style.color = "black";
+        }
+    }
+    document.getElementById("nota").value = parseInt(nota);
 }
+
+function enviar(){}

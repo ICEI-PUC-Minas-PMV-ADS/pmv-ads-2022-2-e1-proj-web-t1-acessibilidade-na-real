@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href=../IMGs/favicon.ico type="image/x-icon">
     <link rel="stylesheet" href="../CSS/avaliacao.css">
     <script src="https://kit.fontawesome.com/90592032aa.js" crossorigin="anonymous"></script>
-    <title>Avaliações</title>
+    <title>Avaliação</title>
 </head>
 <body>
     <header>
@@ -25,34 +25,33 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Avaliações dos usuários</h1>
-            <div class="avaliacoes">
-                <div class="avaliacao">
-                    <div class="avaliacao__header">
-                        <div class="avaliacao__header__info">
-                            <div class="avaliacao__header__info__nome">
-                                <p>Nome do usuário</p>
-                            </div>
-                        </div>
-                        <div class="avaliacao__header__estrelas">
-                            <i id="1"  class="fa-solid fa-star fa-xl" style="color: rgb(255, 217, 0);"></i>
-                            <i id="2"  class="fa-solid fa-star fa-xl" style="color: rgb(255, 217, 0);"></i>
-                            <i id="3"  class="fa-solid fa-star fa-xl" style="color: rgb(255, 217, 0);"></i>
-                            <i id="4"  class="fa-solid fa-star fa-xl" style="color: rgb(255, 217, 0);"></i>
-                            <i id="5" class="fa-solid fa-star-half fa-xl" style="color: rgb(255, 217, 0);"></i>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="avaliacao_comentario">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tenetur dignissimos eveniet aperiam nostrum autem voluptates soluta quidem? Atque deleniti fuga, architecto unde, voluptas autem cupiditate earum impedit laudantium quas quod saepe ipsam fugiat facere quos itaque dolorum sint expedita <span id="ponto" class="ponto">...</span><span id="mais" class="mais"> Porro ea, facere enim corporis nisi minima asperiores et dolores itaque ut doloremque labore fugiat amet repudiandae, reprehenderit accusantium aut tempore reiciendis nobis eum aperiam sed laboriosam eius obcaecati. Nulla sed ipsum quibusdam. Ipsa eos earum consequatur maiores cumque, dolor amet ipsum qui delectus quasi commodi nemo molestias necessitatibus fugiat voluptas error, sed ratione nulla blanditiis cum similique maxime accusantium!</span>
-                        </p>
-                        <button id="mostrar-mais" class="ler-mais"></button>
+        <h1 class="titulo">Avaliação</h1>
+        <div class="avaliacao">
+            <form id="form" action="" method="post">
+                <div class="avaliacao-numero">
+                    <label for="nota">Nota:</label>
+                    <br>
+                    <input type="number" name="avaliacao" id="nota" min="0" max="5" step="1" required>
+                    <div class="estrelas">
+                        <i id="1" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                        <i id="2" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                        <i id="3" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                        <i id="4" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                        <i id="5" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
                     </div>
                 </div>
-            </div>
-        </section>
+                <br>
+                <div class="comentario">
+                    <label for="comentario">Comentário:</label>
+                    <br>
+                    <textarea name="comentario" id="comentario" placeholder="Insira aqui seu comentário... " required></textarea>
+                </div>
+                <div class="botao-enviar">
+                    <button id="enviar" class="enviar" onclick="enviar()">Enviar</button>
+                </div>
+            </form>
+        </div>
     </main>
-    <script src="../JS/avaliacao.js"></script>
 </body>
+<script src="../JS/avaliacao.js"></script>
 </html>
