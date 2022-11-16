@@ -24,7 +24,6 @@ header{
 .topnav > li {
     display: inline-block;
     padding: 8px 16px;
-    border: 1px solid black;
     border-radius: 12px;
     margin: 0 100px;
 }

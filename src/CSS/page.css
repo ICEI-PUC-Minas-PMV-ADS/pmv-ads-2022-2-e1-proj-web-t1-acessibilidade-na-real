@@ -39,7 +39,7 @@ label {
     width: auto;
     text-align: left;
 }
-input, textarea {
+input, textarea, select {
     
     /* Para dar o mesmo tamanho a todos os campo de texto */
     width: 350px;
@@ -49,7 +49,7 @@ input, textarea {
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
 }
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     /* Dar um pouco de destaque nos elementos ativos */
     border-color: #0d0628;
 }
@@ -65,3 +65,10 @@ input:focus, textarea:focus {
     left: 150px;
     cursor: pointer;
   }
+
+select{
+    text-align: center;
+}
+p {
+    text-align: center;
+}
