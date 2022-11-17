@@ -20,8 +20,7 @@
                 <li><a href="">CONHEÇA SEUS DIREITOS</a></li>
                 <li><a href="">DÚVIDAS</a></li>
                 <li><a href="favoritos.html">FAVORITOS</a></li>
-                <li><a href="../HTML/sign-in.html">ENTRAR</a></li>
-
+                <li><a href="sign-in.html">ENTRAR</a></li>
             </ul>
             <hr>
         </nav>
@@ -29,29 +28,27 @@
     <main>
         <h1 class="titulo">Avaliação</h1>
         <div class="avaliacao">
-            <form id="form" action="" method="post">
-                <div class="avaliacao-numero">
-                    <label for="nota">Nota:</label>
-                    <br>
-                    <input type="number" name="avaliacao" id="nota" min="0" max="5" step="1" required>
-                    <div class="estrelas">
-                        <i id="1" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
-                        <i id="2" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
-                        <i id="3" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
-                        <i id="4" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
-                        <i id="5" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
-                    </div>
-                </div>
+            <div class="avaliacao-numero">
+                <label for="nota">Nota:</label>
                 <br>
-                <div class="comentario">
-                    <label for="comentario">Comentário:</label>
-                    <br>
-                    <textarea name="comentario" id="comentario" placeholder="Insira aqui seu comentário... " required></textarea>
+                <input type="number" name="nota" id="nota" min="0" max="5" step="1" required>
+                <div class="estrelas">
+                    <i id="1" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                    <i id="2" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                    <i id="3" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                    <i id="4" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
+                    <i id="5" class="fa-solid fa-star fa-xl" style="cursor: pointer;" onclick="classificacaoNota(this)"></i>
                 </div>
-                <div class="botao-enviar">
-                    <button id="enviar" class="enviar" onclick="enviar()">Enviar</button>
-                </div>
-            </form>
+            </div>
+            <br>
+            <div class="comentario">
+                <label for="comentario">Comentário:</label>
+                <br>
+                <textarea name="comentario" id="comentario" placeholder="Insira aqui seu comentário... " required></textarea>
+            </div>
+            <div class="botao-enviar">
+                <button id="enviar" class="enviar" onclick="send()">Enviar</button>
+            </div>
         </div>
     </main>
 </body>
