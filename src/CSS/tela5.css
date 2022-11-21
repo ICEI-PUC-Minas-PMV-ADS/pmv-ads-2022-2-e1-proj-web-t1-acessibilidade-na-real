@@ -1,37 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "header.css";
 
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+
+
+.cabeçalho {
+  text-align: center;
 }
-
-header {
-    padding-top: 0.1%;
-    font-family: 'Adamina';
-    font-weight: bold !important;
-
-}
-
-.logo {
-  margin-left: 5px;
-  border-radius: 12%;
- text-align: center;
  
-}
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
  @media screen and (max-width:600px) {
 .column {
  width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+ padding: 2px 30px;
+ border-radius: 5px;
+ cursor: pointer;
 }
 
 /* Change the color of links on hover */
@@ -46,27 +28,6 @@ header {
   color: white;
 }
 
-}
-ul{
-  padding: 0;
-  font-weight: bold;
-  
-}
-ul li{
-  display: inline-block;
-  margin-right: 10px;
-  text-align: right;
-  color: black;
-}
-
-a {
-    display: block;
-    color: white;
-    margin-right: 10px;
-}
-
-a:link {
-    text-decoration: none;
 
 }
 
@@ -100,3 +61,31 @@ span.a
 .estrelas input[type=radio]:checked ~ label i.fa:before {
   color: #CCC;
 }
+
+.avaliação2{
+  cursor: pointer;
+  margin:0;
+  border: black;
+  text-align: center; 
+}
+.MeuInput {
+  width: 100px;
+  font-family: verdana;
+  font-size: large;
+  background-color: blue;
+  margin:0;
+  border: black;
+  border-radius: 30px;
+  text-align: center;
+  }
+
+  p  {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: larger;
+    margin-left: 15px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: auto;
+    }
