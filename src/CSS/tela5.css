@@ -2,7 +2,30 @@
 @import "header.css";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "header.css";
 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+  align-items: baseline;
+  width: 100%;
+  padding-top:0.1%;
+  font-family: 'Adamina';
+  font-weight: bolder;
+}
+
+
+.logo {
+  margin-left: 5px;
+  border-radius: 25%;
+ text-align: center;
+ padding-top: 1%;
+}
 .cabeçalho {
   text-align: center;
 }
@@ -29,6 +52,32 @@
 }
 
 
+}
+ul{
+  padding: 5px;
+  font-weight: bold;  
+  text-align: center;
+}
+
+ul li{
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+  margin-left: 15px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: auto;
+}
+
+a {
+    display: block;
+    color: white;
+    margin-right: 10px;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 /* Create four equal columns that floats next to each other */
