@@ -1,3 +1,7 @@
+window.onload = function(){
+    var titulo = sessionStorage.getItem("estTitulo");
+    document.getElementById("titulo-texto").innerHTML = titulo;
+}
 function classificacaoNota(item){
     var nota = item.id;
     for (var i = 1; i <= 5; i++) {
@@ -15,10 +19,10 @@ function send(){
     var nota = document.getElementById("nota").value;
     var comentario = document.getElementById("comentario").value;
     if (nota != 0) {
-        var dados = {"nota": nota, "comentario": comentario};
-        localStorage.setItem("dados", JSON.stringify(dados));
+        localStorage.setItem("AVnota", nota);
+        localStorage.setItem("AVcomentario", comentario);
         alert("Avaliação enviada com sucesso!");
-        window.location.href = "../../index.html";
+        window.location.href = "estabelecimento.html";
         return 0;
     }
     else {

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import "header.css";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import "header.css";
-
-
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -25,9 +20,6 @@ header {
   border-radius: 25%;
  text-align: center;
  padding-top: 1%;
-}
-.cabeçalho {
-  text-align: center;
 }
  
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -71,9 +63,9 @@ ul li{
 }
 
 a {
-    display: block;
-    color: white;
-    margin-right: 10px;
+  display: block;
+  color: white;
+  margin-right: 10px;
 }
 
 a:link {
@@ -82,19 +74,18 @@ a:link {
 
 /* Create four equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 10%;
-    padding: 110px;
-    text-align: center;
+  float: left;
+  width: 10%;
+  padding: 110px;
+  text-align: center;
 }
 
 span.a {
-    display: inline;
-    /* the default for span */
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    
+  display: inline;
+  /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 10px;
 }
 span.a
 .estrelas input[type=radio] {
@@ -117,7 +108,8 @@ span.a
   border: black;
   text-align: center; 
 }
-.MeuInput {
+.enviar-dados {
+  color: #ffffff;
   width: 100px;
   font-family: verdana;
   font-size: large;
@@ -126,15 +118,34 @@ span.a
   border: black;
   border-radius: 30px;
   text-align: center;
-  }
+  cursor: pointer;
+}
 
-  p  {
-    display: inline-block;
-    margin-right: 15px;
-    font-size: larger;
-    margin-left: 15px;
-    color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: auto;
-    }
+.enviar-dados:hover {
+  background-color: red;
+}
+.filtro  {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: larger;
+  margin-left: 15px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: auto;
+}
+
+.resultado{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 60%;
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+  padding: 0 5px;
+}
+.comentario-texto{
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 1px;
+}
