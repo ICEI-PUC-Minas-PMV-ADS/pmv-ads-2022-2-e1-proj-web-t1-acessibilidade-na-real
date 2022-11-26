@@ -61,6 +61,25 @@ CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "Senha incorreta" e desta forma o sit
 
 
 
+CASO DE TESTE CT - 02 - SIGN IN (CASO DE INSUCESSO)
+
+Fazer login (com email não cadastrado)
+
+REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
+
+
+OBJETIVO DE TESTE 	Observar se não será dado acesso aos favoritos ao usuário.
+
+
+PASSOS	Acessei a página, cliquei em entrar, digitei um email sem cadastro anterior.
+
+
+CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "usuário não encontrado" e desta forma o site não permitiu o usuário o acesso a página dos favoritos.
+
+
+![image](https://user-images.githubusercontent.com/111437215/204110685-81db57ef-d4e7-4af3-8b47-8de86699ace1.png)
+
+
 
 
 
