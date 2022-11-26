@@ -12,6 +12,8 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
 
+
+SIGN UP
 ![image](https://user-images.githubusercontent.com/111437215/204106402-40a9711c-e12c-469b-804e-d5d262f5f998.png)
 
 
