@@ -42,6 +42,24 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 
 CASO DE TESTE 	CT - 02 - SIGN IN (CASO DE INSUCESSO)
 
+CASO DE TESTE 	CT - 03- Fazer login (com senha incorreta)
+
+
+REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
+
+
+OBJETIVO DE TESTE 	Observar se não será dado acesso aos favoritos ao usuário.
+
+
+PASSOS	Acessei a página, cliquei em entrar, digitei o email cadastrado anteriormente, contudo com uma senha incorreta.
+
+
+CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "Senha incorreta" e desta forma o site não permitiu o usuário o acesso a página dos favoritos.
+
+
+![image](https://user-images.githubusercontent.com/111437215/204110560-7a820415-86a4-4783-ba17-ad7be9a79df2.png)
+
+
 
 
 
