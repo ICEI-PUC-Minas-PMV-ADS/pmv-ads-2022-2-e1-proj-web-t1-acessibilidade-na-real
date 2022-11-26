@@ -35,7 +35,7 @@ CASO DE TESTE 	CT - 02 permite o usuário Outrora cadastrado, acessar as demais 
 REQUISITOS ASSOCIADOS 	RF-09 - A aplicação deve solicitar login para postagem de um comentário ou avaliação.
 OBJETIVO DE TESTE 	Observar se os dados estão ficando armazanados em storage.
 PASSOS	Foram inseridos email e senha cadastrados anteriomente na tela "entre na sua conta".
-CRITÉRIOS DE ÊXITO	Ao inseriri os dados corretos, aparece uma tela "login realizado com sucesso".
+CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login realizado com sucesso" e você é direcionado para "home".
 
 
 
