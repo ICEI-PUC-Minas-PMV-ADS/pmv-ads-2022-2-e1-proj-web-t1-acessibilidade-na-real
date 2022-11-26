@@ -32,9 +32,13 @@ CRITÉRIOS DE ÊXITO	Ao realizar o cadastro, o site deve retornar uma mensagem d
 SIGN IN (CASO DE SUCESSO)
 
 CASO DE TESTE 	CT - 02 Permite o usuário Outrora cadastrado, acessar as demais telas do site. Sendo necessário apenas informar o email e senha cadastrados. 
+
 REQUISITOS ASSOCIADOS 	RF-09 - A aplicação deve solicitar login para postagem de um comentário ou avaliação.
+
 OBJETIVO DE TESTE 	Observar se os dados estão ficando armazanados em storage.
+
 PASSOS	Foram inseridos email e senha cadastrados anteriomente na tela "entre na sua conta".
+
 CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login realizado com sucesso" e você é direcionado para "home".
 
 
@@ -45,12 +49,33 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 
 SIGN IN (CASO DE INSUCESSO)
 
+
+
+
+
 PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
 
 CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar cometários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento.
+
 REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
+
 OBJETIVO DE TESTE 
+
 PASSOS 
+
 CRITÉRIOS DE ÊXITO 
 
 ![RF05](https://user-images.githubusercontent.com/111434777/204109628-3ead95a3-bb0d-4393-a501-e66c73a6b8ca.jpg)
+
+
+CASO DE TESTE CT - 04 
+
+REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
+
+OBJETIVO DE TESTE
+
+PASSOS
+
+CRITÉRIOS DE ÊXITO
+
+![RF02](https://user-images.githubusercontent.com/111434777/204109895-8f13aa94-3cfb-4afe-811b-98616b8b3a40.jpg)
