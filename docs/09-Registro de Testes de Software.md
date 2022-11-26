@@ -40,7 +40,7 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 ![image](https://user-images.githubusercontent.com/111437215/204108486-f2e1ac8b-e683-4c42-a473-64fd951b1115.png)
 
 
-SIGN IN (CASO DE INSUCESSO)
+CASO DE TESTE 	CT - 02 - SIGN IN (CASO DE INSUCESSO)
 
 
 
