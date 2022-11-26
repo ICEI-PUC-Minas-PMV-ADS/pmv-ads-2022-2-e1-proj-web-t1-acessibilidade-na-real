@@ -8,7 +8,7 @@ window.onload = function () {
     if (nomeLocal != null) {
         var html =
         "<div class=" + categoria + " " + "id="+ categoria + ">"
-        + " <h2>" + nomeLocal + "</h4>"
+        + " <h2>" + nomeLocal + "</h2>"
         + "<div class='desc'>"
         + " <label class='descricao'>Descrição:</label>"
         + " <p class='descricao-texto'>" + descricao + "</p>"
