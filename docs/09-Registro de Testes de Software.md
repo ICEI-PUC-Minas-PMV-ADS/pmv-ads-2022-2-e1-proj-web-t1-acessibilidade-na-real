@@ -20,7 +20,7 @@ REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessa
 OBJETIVO DE TESTE 	Observar se os dados od usuário ficaram salvos.
 PASSOS	1) Acessei a página pelo arquivo sendo direcionado para a página do site 2) Inseri os dados nome, sobrenome, endereço, cidade, selecionei estado, inseri email e senha.
 CRITÉRIOS DE ÊXITO	Ao realizar o cadastro, o site deve retornar uma mensagem de "sua conta foi criada com sucesso".
-![image](https://user-images.githubusercontent.com/111437215/204108773-256c123a-5886-4e85-b542-791cbadcea67.png)
+
 
 
 
@@ -37,7 +37,7 @@ OBJETIVO DE TESTE 	Observar o funcionamento do storage.
 PASSOS	Foram inseridos email e senha cadastrados anteriomente na tela "entre na sua conta".
 CRITÉRIOS DE ÊXITO	Ao inseriri os dados corretos, aparece uma tela "login realizado com sucesso".
 
-![image](https://user-images.githubusercontent.com/111437215/204108753-a722383f-4981-4a4c-8afa-f3a0f627191b.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/111437215/204108486-f2e1ac8b-e683-4c42-a473-64fd951b1115.png)
