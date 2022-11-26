@@ -13,7 +13,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 
 
 
-SIGN UP
+SIGN UP (CASO DE SUCESSO)
 
 CASO DE TESTE 	CT - 01 - Fazer cadastro
 REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
@@ -29,7 +29,7 @@ CRITÉRIOS DE ÊXITO	Ao realizar o cadastro, o site deve retornar uma mensagem d
 
 
 
-SIGN IN
+SIGN IN (CASO DE SUCESSO)
 
 CASO DE TESTE 	CT - 02 permite o usuário Outrora cadastrado, acessar as demais telas do site. Sendo necessário apenas informar o email e senha cadastrados. 
 REQUISITOS ASSOCIADOS 	RF-09 - A aplicação deve solicitar login para postagem de um comentário ou avaliação.
@@ -41,3 +41,8 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 
 
 ![image](https://user-images.githubusercontent.com/111437215/204108486-f2e1ac8b-e683-4c42-a473-64fd951b1115.png)
+
+
+SIGN IN (CASO DE INSUCESSO)
+
+
