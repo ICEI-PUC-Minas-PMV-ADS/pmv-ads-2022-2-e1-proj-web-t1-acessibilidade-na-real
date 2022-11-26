@@ -16,9 +16,13 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 SIGN UP (CASO DE SUCESSO)
 
 CASO DE TESTE 	CT - 01 - Fazer cadastro
+
 REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
+
 OBJETIVO DE TESTE 	Observar se os dados do usuário ficaram salvos.
+
 PASSOS	1) Acessei a página pelo arquivo sendo direcionado para a página do site 2) Inseri os dados nome, sobrenome, endereço, cidade, selecionei estado, inseri email e senha.
+
 CRITÉRIOS DE ÊXITO	Ao realizar o cadastro, o site deve retornar uma mensagem de "sua conta foi criada com sucesso".
 
 ![image](https://user-images.githubusercontent.com/111437215/204108431-34af89eb-4cf3-4c4a-880b-3c138bb6d44d.png)
