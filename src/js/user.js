@@ -22,17 +22,19 @@ function signin(){
 	var email = document.getElementById ('email').value
 	var password = document.getElementById ('password').value
 
-	Object.keys(localStorage).forEach(function (key) {
-		if (document.getElementById ('email').value = key)
-		{
-			if (password == sessionStorage.getItem (email)){
-				alert("Login realizado com sucesso!")
+	Object.keys(localStorage).every(function (key) {
+		if (key == email) {
+			if (localStorage.getItem(key) == password) {
+				alert('Login realizado com sucesso!')
+				sessionStorage.setItem ("sguNome", localStorage.getItem("sguNome"))
 				window.location.href = "home.html"
 			} else {
-				alert("Senha incorreta!")
-			} 
+				alert('Senha incorreta!')
+				return false
+			}
 		} else {
-			alert("Conta não existe.")
+			alert('Usuário não encontrado!')
+			return false
 		}
 	})
-}
+}	
