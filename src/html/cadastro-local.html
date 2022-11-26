@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../css/page.css">
   <link rel="shortcut icon" href=../imgs/favicon.ico type="image/x-icon">
   <title>Cadastre um estabelecimento</title>
-  <script type="text/javascript" src="../js/cadastroLocal.js"></script>
+  <script defer src="../js/local.js"> </script>
 
 </head>
 
@@ -34,12 +34,12 @@
     
     <fieldset>
       <legend>Informações</legend>
-      <label for="fname">Nome:</label><br>
-      <input type="text" id="fname" name="fname" required><br>
+      <label for="localName">Nome:</label><br>
+      <input type="text" id="localName" name="localName" required><br>
       <br>
 
       <label for="category">Categoria:</label>  
-        <select id="category" name="category">
+        <select id="category" name="category" required>
 
         <option value="Museus">Atividades</option>        
         <option value="Bares">Bares</option>
@@ -64,7 +64,7 @@
         <br>
 
         <label for="numero">Número:</label>
-		<input id="numero" type="text" />
+		<input id="numero" type="text" required/>
         <br>
         <br>
         <label for="bairro">Bairro:</label>
@@ -72,8 +72,8 @@
         <br>
         <br>
 
-        <label for="uf">Estado:</label>
-		<select id="uf">
+        <label for="estado">Estado:</label>
+		<select id="estado" required>
 			<option value="AC">Acre</option>
 			<option value="AL">Alagoas</option>
 			<option value="AP">Amapá</option>
@@ -109,7 +109,7 @@
       <legend>Acessibilidade disponível</legend>
       <p><small>- Pressione CTRL para mais de uma opção -</small></p>
 
-    <select id="Acessibilidade" multiple="multiple" > 
+    <select id="acessibilidade" multiple="multiple" required > 
         <option value="Elevador interno">Elevador interno</option> 
         <option value="Elevador externo">Elevador externo</option> 
         <option value="Rampa interna">Rampa interna</option> 
@@ -123,14 +123,14 @@
 
     <fieldset>
         <legend>Fotos</legend>
-        <input type="hidden" name="MAX_FILE_SIZE" value="4194304" />
+        <input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
         <input type="file" name="arquivos" class="btn btn-success"  accept="image/png, image/jpeg"  multiple required/> 
         <br>
         <br>
 
     </fieldset>
     <br>
-    <button class="button" type="button" onclick="alert('O estabelecimento foi criado com sucesso!')">Confirmar</button>
+    <button class="button" type="button" onclick="valida_form()">Confirmar</button>
   </form>
   <br>
   <br>
