@@ -66,10 +66,10 @@ CASO DE TESTE CT - 04 Funcionalidade permita ao usuário relatar quais as adapta
 
 REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
 
-OBJETIVO DE TESTE 
+OBJETIVO DE TESTE Permitir ao usuário registrar quais adaptações o estabelecimento oferece.
 
-PASSOS
+PASSOS Assinalar quais as adaptações disponibilizadas pelo estabelecimento.
 
-CRITÉRIOS DE ÊXITO
+CRITÉRIOS DE ÊXITO Selecção de adaptações disponibilizadas no estabelecimento.
 
 ![RF02](https://user-images.githubusercontent.com/111434777/204109895-8f13aa94-3cfb-4afe-811b-98616b8b3a40.jpg)
