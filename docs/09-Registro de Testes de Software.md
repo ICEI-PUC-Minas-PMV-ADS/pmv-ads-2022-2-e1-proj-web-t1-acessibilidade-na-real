@@ -57,7 +57,7 @@ PASSOS	Acessei a página, cliquei em entrar, digitei o email cadastrado anterior
 CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "Senha incorreta" e desta forma o site não permitiu o usuário o acesso a página dos favoritos.
 
 
-![image](https://user-images.githubusercontent.com/111437215/204110560-7a820415-86a4-4783-ba17-ad7be9a79df2.png)
+![image](https://user-images.githubusercontent.com/111437215/204110619-195cf443-f34c-42fd-801c-50141882fef1.png)
 
 
 
