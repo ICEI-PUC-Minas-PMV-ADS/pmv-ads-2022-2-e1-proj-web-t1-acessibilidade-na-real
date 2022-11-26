@@ -12,10 +12,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 
 
-
-SIGN UP (CASO DE SUCESSO)
-
-CASO DE TESTE 	CT - 01 - Fazer cadastro
+CASO DE TESTE 	CT - 01 - Fazer cadastro - SIGN UP (CASO DE SUCESSO)
 
 REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
 
@@ -30,9 +27,7 @@ CRITÉRIOS DE ÊXITO	Ao realizar o cadastro, o site deve retornar uma mensagem d
 
 
 
-SIGN IN (CASO DE SUCESSO)
-
-CASO DE TESTE 	CT - 02 Permite o usuário Outrora cadastrado, acessar as demais telas do site. Sendo necessário apenas informar o email e senha cadastrados. 
+CASO DE TESTE 	CT - 02 Permite o usuário Outrora cadastrado, acessar as demais telas do site. Sendo necessário apenas informar o email e senha cadastrados.  - SIGN IN (CASO DE SUCESSO)
 
 REQUISITOS ASSOCIADOS 	RF-09 - A aplicação deve solicitar login para postagem de um comentário ou avaliação.
 
@@ -51,9 +46,7 @@ SIGN IN (CASO DE INSUCESSO)
 
 
 
-PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
-
-CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar cometários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento.
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar cometários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
 
 REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
 
@@ -66,7 +59,7 @@ CRITÉRIOS DE ÊXITO Ao inserir comentários e avaliação, aparece uma mensagem
 ![RF05](https://user-images.githubusercontent.com/111434777/204109628-3ead95a3-bb0d-4393-a501-e66c73a6b8ca.jpg)
 
 
-CASO DE TESTE CT - 04 Funcionalidade permita ao usuário relatar quais as adaptações o estabelecimento dispõe.
+CASO DE TESTE CT - 04 Funcionalidade permita ao usuário relatar quais as adaptações o estabelecimento dispõe. - HABILITAR A SELEÇÃO DE ADAPTAÇÕES DISPONIBILIZADAS PELO ESTABELECIMENTO AO USUÁRIO.
 
 REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
 
