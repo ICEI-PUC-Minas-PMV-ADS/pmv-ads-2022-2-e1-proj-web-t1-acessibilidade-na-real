@@ -42,7 +42,7 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 
 CASO DE TESTE 	CT - 02 - SIGN IN (CASO DE INSUCESSO)
 
-CASO DE TESTE 	CT - 03- Fazer login (com senha incorreta)
+Fazer login (com senha incorreta)
 
 
 REQUISITOS ASSOCIADOS 	RF-10 - Permitir o usuário realizar cadastro para acessar sua lista de favoritos.
@@ -64,7 +64,7 @@ CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "Senha incorreta" e desta forma o sit
 
 
 
-CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar cometários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
 
 REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
 
