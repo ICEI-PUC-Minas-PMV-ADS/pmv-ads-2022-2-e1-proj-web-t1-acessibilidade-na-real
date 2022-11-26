@@ -19,8 +19,8 @@ function send(){
     var nota = document.getElementById("nota").value;
     var comentario = document.getElementById("comentario").value;
     if (nota != 0) {
-        localStorage.setItem("AVnota", nota);
-        localStorage.setItem("AVcomentario", comentario);
+        localStorage.setItem("avNota", nota);
+        localStorage.setItem("avComentario", comentario);
         alert("Avaliação enviada com sucesso!");
         window.location.href = "estabelecimento.html";
         return 0;

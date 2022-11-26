@@ -22,8 +22,7 @@
             <li><a href="direitos.html">CONHEÇA SEUS DIREITOS</a></li>
             <li><a href="duvidas.html">DÚVIDAS</a></li>
             <li><a href="favoritos.html">FAVORITOS</a></li>
-            <li><a href="sign-in.html">ENTRAR</a></li>
-        </ul>
+            <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>        </ul>
         <hr>
     </nav>
 </header>
@@ -41,13 +40,15 @@
       <label for="category">Categoria:</label>  
         <select id="category" name="category" required>
 
-        <option value="Museus">Atividades</option>        
-        <option value="Bares">Bares</option>
-        <option value="Hotéis">Hotéis</option>
-        <option value="Restaurantes">Restaurantes</option>
+        <option value="museus">Atividades</option>        
+        <option value="bares">Bares</option>
+        <option value="hoteis">Hotéis</option>
+        <option value="restaurantes">Restaurantes</option>
         
         </select>
+        <label for="desc">Descrção:</label>
         <br>
+        <textarea name="desc" id="desc" cols="30" rows="10" wrap="soft"  maxlength="250"></textarea>
         <br>
     </fieldset>
     <br>

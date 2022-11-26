@@ -19,10 +19,12 @@ function signup(){
 }
 
 function signin(){
+	console.log('Teste')
 	var email = document.getElementById ('email').value
 	var password = document.getElementById ('password').value
-
-	Object.keys(localStorage).every(function (key) {
+	if(localStorage.length == 0){
+		alert("Usuário não cadastrado")
+	}else {Object.keys(localStorage).every(function (key) {
 		if (key == email) {
 			if (localStorage.getItem(key) == password) {
 				alert('Login realizado com sucesso!')
@@ -36,5 +38,5 @@ function signin(){
 			alert('Usuário não encontrado!')
 			return false
 		}
-	})
+	})}
 }	

@@ -1,6 +1,7 @@
 function valida_form (){
 	var nomeLocal = document.getElementById("localName").value;
 	var categoria = document.getElementById("category").value;
+	var descricao = document.getElementById("desc").value;
 	var rua = document.getElementById("rua").value;
 	var numero = document.getElementById("numero").value;
 	var bairro = document.getElementById("bairro").value;
@@ -11,13 +12,14 @@ function valida_form (){
 		alert("Preencha todos os campos!");
 		return false;
 	} else {
-		localStorage.setItem("nomeLocal", nomeLocal);
-		localStorage.setItem("categoria", categoria);
-		localStorage.setItem("rua", rua);
-		localStorage.setItem("numero", numero);
-		localStorage.setItem("bairro", bairro);
-		localStorage.setItem("estado", estado);
-		localStorage.setItem("acessilibilidade", acessilibilidade);
+		localStorage.setItem("locNomelocal", nomeLocal);
+		localStorage.setItem("locCategoria", categoria);
+		localStorage.setItem("locDescricao", descricao);
+		localStorage.setItem("locRua", rua);
+		localStorage.setItem("locNumero", numero);
+		localStorage.setItem("locBairro", bairro);
+		localStorage.setItem("locEstado", estado);
+		localStorage.setItem("locAcessilibilidade", acessilibilidade);
 		alert("Local cadastrado com sucesso!");
 		window.location.href = "home.html";
 	}

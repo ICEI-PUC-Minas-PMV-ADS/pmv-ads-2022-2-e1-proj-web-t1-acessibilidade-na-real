@@ -10,6 +10,7 @@ p {
   width: 10%;
   padding: 110px;
   text-align: center;
+  cursor: pointer;
 }
    /* Clear floats after the columns */
     .row:after {
