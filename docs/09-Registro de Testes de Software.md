@@ -45,4 +45,12 @@ CRITÉRIOS DE ÊXITO	Ao inserir os dados corretos, aparece uma tela "login reali
 
 SIGN IN (CASO DE INSUCESSO)
 
+PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
 
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar cometários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento.
+REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
+OBJETIVO DE TESTE 
+PASSOS 
+CRITÉRIOS DE ÊXITO 
+
+![RF05](https://user-images.githubusercontent.com/111434777/204109628-3ead95a3-bb0d-4393-a501-e66c73a6b8ca.jpg)
