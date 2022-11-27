@@ -50,7 +50,10 @@
         <option value="restaurantes">Restaurantes</option>
         
         </select>
-        <label for="desc">Descrção:</label>
+        <br>
+        <br>
+
+        <label for="desc">Descrição:</label>
         <br>
         <textarea name="desc" id="desc" cols="30" rows="10" wrap="soft"  maxlength="250"></textarea>
         <br>
@@ -125,6 +128,14 @@
     </select> 
     </fieldset>
     <br>
+    <fieldset>
+      <legend>Fotos</legend>
+      <input type="hidden" name="MAX_FILE_SIZE" value="4194304"/>
+      <input type="file" name="arquivos" class="btn btn-success"  accept="image/png, image/jpeg"  multiple required/> 
+      <br>
+      <br>
+
+  </fieldset>
     <br>
     <button class="button" type="button" onclick="valida_form()">Confirmar</button>
   </form>
