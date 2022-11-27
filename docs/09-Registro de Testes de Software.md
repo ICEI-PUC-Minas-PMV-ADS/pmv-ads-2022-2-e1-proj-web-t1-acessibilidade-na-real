@@ -83,7 +83,7 @@ CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "usuário não encontrado" e desta fo
 
 
 
-CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA (CASO DE SUCESSO)
 
 REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
 
@@ -94,6 +94,18 @@ PASSOS Registro de texto teste como avaliação, e registro de nota entre 0 e 5 
 CRITÉRIOS DE ÊXITO Ao inserir comentários e avaliação, aparece uma mensagem "avalliação enviada com sucesso".
 
 ![RF05](https://user-images.githubusercontent.com/111434777/204109628-3ead95a3-bb0d-4393-a501-e66c73a6b8ca.jpg)
+
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA (CASO DE INSUCESSO)
+
+REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
+
+OBJETIVO DE TESTE Registrar comentário sem preencher corretamente os campos.
+
+PASSOS Enviar avalização com campos obrigatórios em branco.
+
+CRITÉRIOS DE ÊXITO Ao inserir comentários e avaliação, aparece uma mensagem "Selecione uma nota".
+
+![RF05a](https://user-images.githubusercontent.com/111434777/204152606-0ae41f25-775a-44dc-b395-636651982b21.jpg)
 
 
 CASO DE TESTE CT - 04 Funcionalidade permita ao usuário relatar quais as adaptações o estabelecimento dispõe. - HABILITAR A SELEÇÃO DE ADAPTAÇÕES DISPONIBILIZADAS PELO ESTABELECIMENTO AO USUÁRIO.
