@@ -119,6 +119,6 @@ PASSOS Inserir as informações do estabelecimento, incluindo as adaptações di
 
 CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Local cadastrado com sucesso". Na sequência, o usuário é direcionado para a página do estabelecimento cadastrado.
 
-![RF 02 b](https://user-images.githubusercontent.com/111434777/204151461-57a6aeb1-177c-4bf3-9e1a-5a5ee7cbb21b.jpg)
+![RF 02 b](https://user-images.githubusercontent.com/111434777/204151913-edbf7549-e70e-4d9b-9501-08f1cc7cafa8.jpg)
 
 ![RF 02 c](https://user-images.githubusercontent.com/111434777/204151783-80fa40a8-7378-4ace-9dbe-c1ead626148a.jpg)
