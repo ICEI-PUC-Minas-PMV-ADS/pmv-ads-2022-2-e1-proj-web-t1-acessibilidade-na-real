@@ -1,21 +1,5 @@
 @import "header.css";
 
-
-ul{
-    padding: 0;
-    text-align: center;
-
-}
-
-ul li {
-    display: inline-block;
-    margin-right: 130px;
-    margin-left: 130px;
-    text-align: center;
-    color: black;
-    font-size: 15px;
-}
-
 h2 {
     text-align: center; 
     color: #da627d;  

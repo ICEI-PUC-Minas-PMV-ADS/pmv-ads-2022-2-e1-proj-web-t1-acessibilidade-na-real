@@ -11,25 +11,6 @@ body {
  text-align: center;
  padding-top: 1%;
 }
-
-ul{
-  padding: 5px;
-  font-weight: bold;  
-  text-align: center;
-}
-
-ul li{
-  display: inline-block;
-  margin-right: 15px;
-  text-align: center;
-  margin-left: 15px;
-  color: black;
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: auto;
-}
-
-
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;

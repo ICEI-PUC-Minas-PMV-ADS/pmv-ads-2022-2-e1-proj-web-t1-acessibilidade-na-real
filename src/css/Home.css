@@ -19,14 +19,8 @@ p {
   clear: both;
 }
 
-.logo {
-    margin-left: 5px;
-     border-radius: 12%;
-    text-align: center;
-    
-}
-    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-    @media screen and (max-width:600px) {
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
