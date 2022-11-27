@@ -83,7 +83,7 @@ CRITÉRIOS DE ÊXITO	Apareceu uma mensagem "usuário não encontrado" e desta fo
 
 
 
-CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA (CASO DE SUCESSO)
 
 REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
 
@@ -94,6 +94,18 @@ PASSOS Registro de texto teste como avaliação, e registro de nota entre 0 e 5 
 CRITÉRIOS DE ÊXITO Ao inserir comentários e avaliação, aparece uma mensagem "avalliação enviada com sucesso".
 
 ![RF05](https://user-images.githubusercontent.com/111434777/204109628-3ead95a3-bb0d-4393-a501-e66c73a6b8ca.jpg)
+
+CASO DE TESTE CT - 03 Funcionalidade possibilita ao usuário registrar comentários a avaliações acerca da experiência proporcionada pelas adaptações do estabelecimento. - PERMITIR AO USUÁRIO REGISTRAR AVALIAÇÕES E COMENTÁRIOS DE ACORDO COM A PRÓPRIA EXPERIÊNCIA (CASO DE INSUCESSO)
+
+REQUISITOS ASSOCIADOS RF-05 Permitir o usuário deixar avaliações e comentários seguindo sua experiência.
+
+OBJETIVO DE TESTE Registrar comentário sem preencher corretamente os campos.
+
+PASSOS Enviar avalização com campos obrigatórios em branco.
+
+CRITÉRIOS DE ÊXITO Ao inserir comentários e avaliação, aparece uma mensagem "Selecione uma nota".
+
+![RF05a](https://user-images.githubusercontent.com/111434777/204152606-0ae41f25-775a-44dc-b395-636651982b21.jpg)
 
 
 CASO DE TESTE CT - 04 Funcionalidade permita ao usuário relatar quais as adaptações o estabelecimento dispõe. - HABILITAR A SELEÇÃO DE ADAPTAÇÕES DISPONIBILIZADAS PELO ESTABELECIMENTO AO USUÁRIO.
@@ -107,3 +119,31 @@ PASSOS Assinalar quais as adaptações disponibilizadas pelo estabelecimento.
 CRITÉRIOS DE ÊXITO Selecção de adaptações disponibilizadas no estabelecimento.
 
 ![RF02](https://user-images.githubusercontent.com/111434777/204109895-8f13aa94-3cfb-4afe-811b-98616b8b3a40.jpg)
+
+
+CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas. - CADASTRO DE ESTABELECIMENTO (CASO DE SUCESSO)
+
+REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
+
+OBJETIVO DE TESTE Cadastrar novo estabelecimento.
+
+PASSOS Inserir as informações do estabelecimento, incluindo as adaptações disponibilizadas, e concluir o cadastro.
+
+CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Local cadastrado com sucesso". Na sequência, o usuário é direcionado para a página do estabelecimento cadastrado.
+
+![RF 02 b](https://user-images.githubusercontent.com/111434777/204151913-edbf7549-e70e-4d9b-9501-08f1cc7cafa8.jpg)
+
+![RF 02 c](https://user-images.githubusercontent.com/111434777/204151783-80fa40a8-7378-4ace-9dbe-c1ead626148a.jpg)
+
+
+CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas. - CADASTRO DE ESTABELECIMENTO (CASO DE INSUCESSO)
+
+REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
+
+OBJETIVO DE TESTE Cadastrar novo estabelecimento sem preencher todos os campos obrigatórios.
+
+PASSOS Concluir cadastro de estabelecimento sem preencher todos os campos obrigatórios.
+
+CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento sem preencher os campos obrigatórios, aparece uma mensagem de "Preencha todos os campos".
+
+![RF 02 d](https://user-images.githubusercontent.com/111434777/204152293-5c9037c0-a96d-4c38-a7f9-fc7c7f0b7fb2.jpg)
