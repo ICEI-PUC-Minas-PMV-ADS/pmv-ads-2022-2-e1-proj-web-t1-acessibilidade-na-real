@@ -19,24 +19,25 @@ function signup(){
 }
 
 function signin(){
-	console.log('Teste')
 	var email = document.getElementById ('email').value
 	var password = document.getElementById ('password').value
 	if(localStorage.length == 0){
 		alert("Usuário não cadastrado")
-	}else {Object.keys(localStorage).every(function (key) {
-		if (key == email) {
-			if (localStorage.getItem(key) == password) {
+	}else {
+		keys = Object.keys(localStorage)
+		if (keys.includes(email)){
+			if (localStorage.getItem(email) == password) {
 				alert('Login realizado com sucesso!')
 				sessionStorage.setItem ("sguNome", localStorage.getItem("sguNome"))
+				sessionStorage.setItem ("login", "true")
 				window.location.href = "home.html"
 			} else {
 				alert('Senha incorreta!')
 				return false
 			}
-		} else {
-			alert('Usuário não encontrado!')
-			return false
-		}
-	})}
+			} else {
+				alert('Usuário não encontrado!')
+				return false
+			}
+	}
 }	

@@ -5,46 +5,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
-header {
-  align-items: baseline;
-  width: 100%;
-  padding-top:0.1%;
-  font-family: 'Adamina';
-  font-weight: bolder;
-}
-
-
 .logo {
   margin-left: 5px;
   border-radius: 25%;
  text-align: center;
  padding-top: 1%;
 }
- 
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- @media screen and (max-width:600px) {
-.column {
- width: 100%;
- padding: 2px 30px;
- border-radius: 5px;
- cursor: pointer;
-}
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-
-}
 ul{
   padding: 5px;
   font-weight: bold;  
@@ -62,15 +29,6 @@ ul li{
   padding: auto;
 }
 
-a {
-  display: block;
-  color: white;
-  margin-right: 10px;
-}
-
-a:link {
-    text-decoration: none;
-}
 
 /* Create four equal columns that floats next to each other */
 .column {
@@ -148,4 +106,20 @@ span.a
   border: 1px solid black;
   border-radius: 12px;
   padding: 1px;
+}
+.topmain{
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+#titulo{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin : 0;
+  width: 100%;
+}
+.fa-heart{
+  line-height: 1.5  ;
+  cursor: pointer;
 }

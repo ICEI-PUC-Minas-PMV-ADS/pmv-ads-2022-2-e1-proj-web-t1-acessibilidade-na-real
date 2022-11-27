@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/page.css">
   <link rel="shortcut icon" href=../imgs/favicon.ico type="image/x-icon">
+  <script defer src="../js/checkLogin.js"></script>
   <title>Cadastre um estabelecimento</title>
   <script defer src="../js/local.js"> </script>
 
@@ -21,8 +22,11 @@
             <li><a href="sobre.html">QUEM SOMOS</a></li>
             <li><a href="direitos.html">CONHEÇA SEUS DIREITOS</a></li>
             <li><a href="duvidas.html">DÚVIDAS</a></li>
-            <li><a href="favoritos.html">FAVORITOS</a></li>
-            <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>        </ul>
+            <li id="favoritos"><a href="favoritos.html">FAVORITOS</a></li>
+            <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>
+            <li id="cadastro"><a href="sign-up.html">CADASTRE-SE</a></li>
+            <li id="cad-estabelecimento"><a href="cadastro-local.html">CADASTRE SEU LOCAL</a></li>
+        </ul>
         <hr>
     </nav>
 </header>
@@ -111,13 +115,13 @@
       <p><small>- Pressione CTRL para mais de uma opção -</small></p>
 
     <select id="acessibilidade" multiple="multiple" required > 
-        <option value="Elevador interno">Elevador interno</option> 
-        <option value="Elevador externo">Elevador externo</option> 
-        <option value="Rampa interna">Rampa interna</option> 
-        <option value="Rampa externa">Rampa externa</option> 
-        <option value="Barras de apoio">Barras de apoio</option> 
-        <option value="Banheiro adaptado">Banheiro adaptado</option>
-        <option value="Cadeira de rodas">Cadeira de rodas</option>
+        <option value="elevador-interno">Elevador interno</option> 
+        <option value="elevador-externo">Elevador externo</option> 
+        <option value="rampa-interna">Rampa interna</option> 
+        <option value="rampa-externa">Rampa externa</option> 
+        <option value="barra-apoio">Barras de apoio</option> 
+        <option value="banheiro-adaptado">Banheiro adaptado</option>
+        <option value="cadira-rodas">Cadeira de rodas</option>
     </select> 
     </fieldset>
     <br>

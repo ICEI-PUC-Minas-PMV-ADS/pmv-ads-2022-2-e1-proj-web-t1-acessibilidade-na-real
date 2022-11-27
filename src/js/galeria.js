@@ -2,13 +2,14 @@ window.onload = function () {
     var nomeLocal = localStorage.getItem("locNomelocal");
     var categoria = localStorage.getItem("locCategoria");
     var descricao = localStorage.getItem("locDescricao");
-    console.log(nomeLocal);
-    console.log(categoria);
-    console.log(descricao);
+    console.log('nomeLocal');
+    console.log('categoria');
+    console.log('descricao');
+
     if (nomeLocal != null) {
         var html =
-        "<div class=" + categoria + " " + "id="+ categoria + ">"
-        + " <h2>" + nomeLocal + "</h4>"
+        "<div class=" + categoria +  " id="+ categoria + " onclick='redirect()'" + ">"
+        + " <h2>" + nomeLocal + "</h2>"
         + "<div class='desc'>"
         + " <label class='descricao'>Descrição:</label>"
         + " <p class='descricao-texto'>" + descricao + "</p>"
@@ -20,5 +21,11 @@ window.onload = function () {
         document.getElementById(categoria).style.borderRadius = "10px";
         document.getElementById(categoria).style.backgroundColor = "#f2f2f2";
         document.getElementById(categoria).style.padding = "10px";
+        document.getElementById(categoria).style.cursor = "pointer";
     }
+}
+
+
+function redirect(){
+    window.location.href = "estabelecimento.html";
 }

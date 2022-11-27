@@ -27,6 +27,12 @@ header{
     border-radius: 12px;
     margin: 0 100px;
 }
+#favoritos{
+    display: none;
+}
+#cad-estabelecimento{
+    display: none;
+}
 a{
     color: black;
 }

@@ -19,7 +19,7 @@ function valida_form (){
 		localStorage.setItem("locNumero", numero);
 		localStorage.setItem("locBairro", bairro);
 		localStorage.setItem("locEstado", estado);
-		localStorage.setItem("locAcessilibilidade", acessilibilidade);
+		localStorage.setItem("locAcessibilidade", acessilibilidade);
 		alert("Local cadastrado com sucesso!");
 		window.location.href = "home.html";
 	}

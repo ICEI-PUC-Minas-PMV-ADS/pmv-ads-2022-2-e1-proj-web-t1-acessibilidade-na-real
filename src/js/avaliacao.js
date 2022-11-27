@@ -1,6 +1,10 @@
 window.onload = function(){
-    var titulo = sessionStorage.getItem("estTitulo");
-    document.getElementById("titulo-texto").innerHTML = titulo;
+    if (sessionStorage.getItem("login")=="true") {
+        var titulo = sessionStorage.getItem("estTitulo");
+        document.getElementById("titulo-texto").innerHTML = titulo;
+    } else {
+        location.href = "sign-in.html";
+    }
 }
 function classificacaoNota(item){
     var nota = item.id;

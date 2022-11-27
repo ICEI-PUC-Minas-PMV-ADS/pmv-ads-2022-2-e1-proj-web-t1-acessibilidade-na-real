@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href=../imgs/favicon.ico type="image/x-icon">
         <link rel="stylesheet" href="../css/favoritos.css">
+        <script defer src="../js/checkLogin.js"></script>
+        <script defer src="../js/favoritos.js"></script>
         <title>Favoritos</title>
     </head>
-    <body>
+    <body id="body">
         <header>
             <nav>
                 <div class="logo">
@@ -18,8 +20,11 @@
                     <li><a href="sobre.html">QUEM SOMOS</a></li>
                     <li><a href="direitos.html">CONHEÇA SEUS DIREITOS</a></li>
                     <li><a href="duvidas.html">DÚVIDAS</a></li>
-                    <li><a href="favoritos.html">FAVORITOS</a></li>
-                    <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>                </ul>
+                    <li id="favoritos"><a href="favoritos.html">FAVORITOS</a></li>
+                    <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>
+                    <li id="cadastro"><a href="sign-up.html">CADASTRE-SE</a></li>
+                    <li id="cad-estabelecimento"><a href="cadastro-local.html">CADASTRE SEU LOCAL</a></li>
+                </ul>
                 <hr>
             </nav>
         </header>
@@ -36,9 +41,9 @@
                             </div>
                             <div class="container-content-item">
                                 <div class="container-content-item-title">
-                                    <h2>Estabelecimento 1</h2>
+                                    <h2 id="titulo"></h2>
                                 </div>
-                                <div class="container-content-item-content">
+                                <div id="descricao" class="container-content-item-content">
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, ratione dicta facilis quas fugit maiores, rem recusandae necessitatibus adipisci sit obcaecati architecto itaque? Praesentium ipsam fugit assumenda fugiat perspiciatis dignissimos aperiam inventore eos, laborum odio dolor porro pariatur id quasi, nisi quos facere magni...</p>
                                 </div>
                             </div>

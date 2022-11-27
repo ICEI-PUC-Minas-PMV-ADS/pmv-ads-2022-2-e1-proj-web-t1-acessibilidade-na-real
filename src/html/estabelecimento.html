@@ -8,8 +8,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      <link rel="stylesheet" href="css/tela5.css">
       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <script src="https://kit.fontawesome.com/90592032aa.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="../css/tela5.css">
-      <link rel="stylesheet" href="../css/header.css">
+      <script defer src="../js/checkLogin.js"></script>
   </head>
       
 
@@ -23,13 +24,19 @@
                 <li><a href="sobre.html">QUEM SOMOS</a></li>
                 <li><a href="direitos.html">CONHEÇA SEUS DIREITOS</a></li>
                 <li><a href="duvidas.html">DÚVIDAS</a></li>
-                <li><a href="favoritos.html">FAVORITOS</a></li>
-                <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>            </ul>
+                <li id="favoritos"><a href="favoritos.html">FAVORITOS</a></li>
+                <li id="entrar"><a href="sign-in.html">ENTRAR</a></li>
+                <li id="cadastro"><a href="sign-up.html">CADASTRE-SE</a></li>
+                <li id="cad-estabelecimento"><a href="cadastro-local.html">CADASTRE SEU LOCAL</a></li>
+            </ul>
             <hr>
         </nav>
     </header>
     <main>
-      <h1 id="titulo" style="text-align: center;">Jack Rock Bar</h1>
+      <div class="topmain">
+        <h1 id="titulo" style="text-align: center;"></h1>
+        <i class="fa-solid fa-heart fa-2xl" onclick="addFavorito(this)"></i>
+      </div>
       <table width="100%" cellpadding="10">
         <tr>
           <td width="50%" valign="top">
@@ -38,64 +45,41 @@
                 <p class="filtro">
                   Filtro
                 </p>
-              </div>  
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Piso Tátil</label>
-            </div>
-        
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Elevador</label>
-            </div>
-            <div class="form-check">
+              </div> 
+              <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="elevador-interno" name="option1" value="Elevador interno" disabled>
+              <label class="form-check-label">Elevador interno</label><br>
+      
+              <input class="form-check-input" type="checkbox" id="elevador-externo" name="option2" value="Elevador externo" disabled>
+              <label class="form-check-label">Elevador externo</label><br>
 
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Piso Adaptado</label>
-            </div>
+              <input class="form-check-input" type="checkbox" id="rampa-interna" name="option3" value="Rampa interna" disabled>
+              <label class="form-check-label">Rampa interna</label><br>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Rampa de Acesso</label>
-            </div>
+              <input class="form-check-input" type="checkbox" id="rampa-externa" name="option4" value="Rampa externa" disabled>
+              <label class="form-check-label">Rampa externa</label><br>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Mesas Espaçadas</label>
-            </div>
+              <input class="form-check-input" type="checkbox" id="barra-apoio" name="option5" value="Barras de apoio" disabled>
+              <label class="form-check-label">Barras de apoio</label><br>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
-              <label class="form-check-label">Banheiro Adaptado</label>
-            </div>
+              <input class="form-check-input" type="checkbox" id="banheiro-adaptado" name="option6" value="Banheiro Adaptado" disabled>
+              <label class="form-check-label">Banheiro Adaptado</label><br>
 
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+              <input class="form-check-input" type="checkbox" id="cadira-rodas" name="option7" value="Cadeira de Rodas" disabled>
               <label class="form-check-label">Cadeira de Rodas</label>
             </div>
           </td>
           <td width="50%" valign="top">
             <span class="a"  >
               <img src="../imgs/Jack-Rock-Bar.jpg" style="width:200px;height:200px;"> </span>
-              <div class="estrelas">
-                  <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
-                  <label for="cm_star-1"><i class="fa"></i></label>
-                  <input type="radio" id="cm_star-1" name="fb" value="1"/>
-                  <label for="cm_star-2"><i class="fa"></i></label>
-                  <input type="radio" id="2" name="fb" value="2"/>
-                  <label for="cm_star-3"><i class="fa"></i></label>
-                  <input type="radio" id="cm_star-3" name="fb" value="3"/>
-                  <label for="cm_star-4"><i class="fa"></i></label>
-                  <input type="radio" id="cm_star-4" name="fb" value="4"/>
-                  <label for="cm_star-5"><i class="fa"></i></label>
-                  <input type="radio" id="cm_star-5" name="fb" value="5"/>
-              </div>
+            
             </span>
           </td>
         </tr>
       </table>
       <section>
         <div class="avaliação2">
-          <button class="enviar-dados" onclick="enviarDados()">Enviar</button>
+          <button class="enviar-dados" onclick="enviarDados()">Avaliar</button>
         </div>
       </section>
       <hr>
