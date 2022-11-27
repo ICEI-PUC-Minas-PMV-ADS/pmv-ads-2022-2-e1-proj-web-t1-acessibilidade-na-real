@@ -139,3 +139,20 @@ PASSOS Concluir cadastro de estabelecimento sem preencher todos os campos obriga
 CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento sem preencher os campos obrigatórios, aparece uma mensagem de "Preencha todos os campos".
 
 ![RF 02 d](https://user-images.githubusercontent.com/111434777/204152293-5c9037c0-a96d-4c38-a7f9-fc7c7f0b7fb2.jpg)
+
+
+CASO DE TESTE CT - 06 Aplicação web permite ao usuário salvar seus locais favoritos em uma lista. - FAVORITAR UM LOCAL (CASO DE SUCESSO)
+
+REQUISITOS ASSOCIADOS RF-03 Permitir ao usuário salvar seus locais favoritos em uma lista.
+
+OBJETIVO DE TESTE Clicar no ícone que representa a ação de favoritar (nesse caso, um coração) e visualizar o item na lista de destino.
+PASSOS 01) Clicar no ícone de favoritar; 2) Entrar na página de favoritos da barra superior.
+
+CRITÉRIOS DE ÊXITO Ao favoritar um item, o mesmo deve estar visível na página de relação de favoritos.
+
+![local-1](https://user-images.githubusercontent.com/99608391/204153647-eb1299c2-4088-4fad-bf82-74c7e9c700a0.png)
+
+![local-2](https://user-images.githubusercontent.com/99608391/204153642-f25df00f-5533-4983-86d8-7ca215af0fe9.png)
+
+
+
