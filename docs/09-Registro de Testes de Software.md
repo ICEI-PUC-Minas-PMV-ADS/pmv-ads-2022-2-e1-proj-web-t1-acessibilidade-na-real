@@ -107,3 +107,16 @@ PASSOS Assinalar quais as adaptações disponibilizadas pelo estabelecimento.
 CRITÉRIOS DE ÊXITO Selecção de adaptações disponibilizadas no estabelecimento.
 
 ![RF02](https://user-images.githubusercontent.com/111434777/204109895-8f13aa94-3cfb-4afe-811b-98616b8b3a40.jpg)
+
+
+CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas.
+
+REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
+
+OBJETIVO DE TESTE Cadastrar novo estabelecimento.
+
+PASSOS Inserir as informações do estabelecimento, incluindo as adaptações disponibilizadas, e concluir o cadastro.
+
+CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Estabelecimento cadastrado com sucesso".
+
+![RF 02 b](https://user-images.githubusercontent.com/111434777/204151461-57a6aeb1-177c-4bf3-9e1a-5a5ee7cbb21b.jpg)
