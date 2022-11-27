@@ -117,6 +117,6 @@ OBJETIVO DE TESTE Cadastrar novo estabelecimento.
 
 PASSOS Inserir as informações do estabelecimento, incluindo as adaptações disponibilizadas, e concluir o cadastro.
 
-CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Estabelecimento cadastrado com sucesso".
+CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Local cadastrado com sucesso".
 
 ![RF 02 b](https://user-images.githubusercontent.com/111434777/204151461-57a6aeb1-177c-4bf3-9e1a-5a5ee7cbb21b.jpg)
