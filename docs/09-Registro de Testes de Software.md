@@ -109,7 +109,7 @@ CRITÉRIOS DE ÊXITO Selecção de adaptações disponibilizadas no estabelecime
 ![RF02](https://user-images.githubusercontent.com/111434777/204109895-8f13aa94-3cfb-4afe-811b-98616b8b3a40.jpg)
 
 
-CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas.
+CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas. - CADASTRO DE ESTABELECIMENTO (CASO DE SUCESSO)
 
 REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
 
@@ -122,3 +122,16 @@ CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento, aparece uma mensagem de "Lo
 ![RF 02 b](https://user-images.githubusercontent.com/111434777/204151913-edbf7549-e70e-4d9b-9501-08f1cc7cafa8.jpg)
 
 ![RF 02 c](https://user-images.githubusercontent.com/111434777/204151783-80fa40a8-7378-4ace-9dbe-c1ead626148a.jpg)
+
+
+CASO DE TESTE CT - 05 Aplicação web permite ao usuário cadastrar estabelecimentos, informando as adaptações disponibilizadas. - CADASTRO DE ESTABELECIMENTO (CASO DE INSUCESSO)
+
+REQUISITOS ASSOCIADOS RF-02 A aplicação deve informar de maneira detalhada e fidedigna, quais as formas de acessibilidade disponíveis no estabelecimento, sendo elas relatadas pelos usuários ou pelo dono do local
+
+OBJETIVO DE TESTE Cadastrar novo estabelecimento sem preencher todos os campos obrigatórios.
+
+PASSOS Concluir cadastro de estabelecimento sem preencher todos os campos obrigatórios.
+
+CRITÉRIOS DE ÊXITO Ao cadastrar o estabelecimento sem preencher os campos obrigatórios, aparece uma mensagem de "Preencha todos os campos".
+
+![RF 02 d](https://user-images.githubusercontent.com/111434777/204152293-5c9037c0-a96d-4c38-a7f9-fc7c7f0b7fb2.jpg)
