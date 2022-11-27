@@ -3,6 +3,12 @@ window.onload = function(){
     var comentario = localStorage.getItem("avComentario");
     var titulo = localStorage.getItem("locNomelocal");
     var acessibilidade = localStorage.getItem("locAcessibilidade");
+    var favorito = localStorage.getItem("favFavorito");
+    if(favorito == "true"){
+        document.getElementById("favorito").style.color = "red";
+    }else{
+        document.getElementById("favorito").style.color = "black";
+    }
     document.getElementById("titulo").innerHTML = titulo;
     acessibilidades = acessibilidade.split(",");
     for(var i = 0; i < acessibilidades.length; i++){
@@ -31,13 +37,15 @@ function enviarDados() {
 function addFavorito(item){
     var nome = localStorage.getItem("locNomelocal");
     var descricao = localStorage.getItem("locDescricao");
-    if(item.style.color == "red"){
+    var favorito = localStorage.getItem("favFavorito");
+    if(favorito == "true"){
+        localStorage.setItem("favFavorito", "false");
         item.style.color = "black";
-        localStorage.removeItem("estNome");
-        localStorage.removeItem("estDescricao");
     }else{
-        item.style.color = "red";
+        localStorage.setItem("favFavorito", "true");
         localStorage.setItem("estNome", nome);
         localStorage.setItem("estDescricao", descricao);
+        item.style.color = "red";
     }
+
 }
