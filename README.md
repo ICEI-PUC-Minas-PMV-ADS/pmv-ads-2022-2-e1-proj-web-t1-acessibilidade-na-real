@@ -55,4 +55,4 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Armazenamento da Apresentação
 
-* <a href="presentation/README.md">Apresentação da solução</a>
+[slides.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real/files/10203017/slides.pdf)
