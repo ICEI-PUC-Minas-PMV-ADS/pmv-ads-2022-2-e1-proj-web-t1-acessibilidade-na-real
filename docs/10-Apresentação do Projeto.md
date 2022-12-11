@@ -14,6 +14,9 @@ https://user-images.githubusercontent.com/111434777/206920271-f47d6020-d7fa-4ca6
 
 ## Título do Projeto
 
+![logo_page](https://user-images.githubusercontent.com/111434777/206920372-8093387b-dfb2-470f-b1e4-6ca70779eb73.png)
+
+
 Acessibilidade da Real
 
 ## Identidade Visual (Marca, Design)
