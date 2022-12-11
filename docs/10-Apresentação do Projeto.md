@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/111434777/206920271-f47d6020-d7fa-4ca6
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Acessibilidade da Real
 
 ## Identidade Visual (Marca, Design)
 
