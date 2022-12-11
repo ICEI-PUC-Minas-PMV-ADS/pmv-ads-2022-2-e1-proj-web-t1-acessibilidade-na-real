@@ -8,4 +8,5 @@ https://user-images.githubusercontent.com/111434777/206782861-264f1ebf-a7d4-43b0
 
 
 
-Faça o upload do arquivo de vídeo e dos slides usados na apresentação no formato PDF (caso tenha feito uso de slides).
+[slides.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-acessibilidade-na-real/files/10203009/slides.pdf)
+
